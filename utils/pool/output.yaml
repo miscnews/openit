@@ -4890,7 +4890,7 @@ proxies:
   port: 8118
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 589 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 589 VMS"
   server: new3.hucloud-dns.xyz
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -9334,7 +9334,7 @@ proxies:
   password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F9 IT 1145 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 1145 TJN"
   server: ru01.awcloud.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -14441,7 +14441,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 1837 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 1837 TJN"
   server: us01.awcloud.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -14481,7 +14481,7 @@ proxies:
   password: lCYI0KOB8exTgp736ac3ZR3DnXwaOFS5pACRuZzSyeYy4N3j2D8qAxF9alDSEC
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 1842 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 1842 TJN"
   server: my01.awcloud.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -14497,7 +14497,7 @@ proxies:
   password: ceaea123-1b4b-469b-8358-bcd5f5529305
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 1844 TJN"
+- name: "\U0001F1E9\U0001F1EA DE 1844 TJN"
   server: de01.awcloud.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -14513,7 +14513,7 @@ proxies:
   password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 1846 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 1846 TJN"
   server: sg02.awcloud.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -15541,6 +15541,87 @@ proxies:
   udp: true
   password: a3278882-3614-39cf-a3d6-faefa8c910ab
   skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 1980 VMS"
+  type: vmess
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  port: 443
+  cipher: auto
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+- name: "\U0001F1E8\U0001F1F3 CN 1981 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25226
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 1982 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25261
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 1983 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25267
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 1984 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25233
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 1985 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25238
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 1986 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25235
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 1987 SSS"
+  type: ss
+  server: 14.29.124.168
+  port: 25219
+  password: QazEdcTgb159@$*
+  cipher: aes-128-cfb
+- name: "\U0001F1ED\U0001F1F0 HK 1988 VMS"
+  type: vmess
+  server: fullaccesstohongkongnet.azurewebsites.net
+  port: 443
+  cipher: auto
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+- name: "\U0001F1ED\U0001F1F0 HK 1989 TJN"
+  type: trojan
+  server: 103.135.103.229
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 1990 TJN"
+  type: trojan
+  server: kaizen-hk-8.mielink-dns2.com
+  port: 443
+  udp: true
+  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  skip-cert-verify: true
 proxy-groups:
 - name: automatic
   type: url-test
@@ -16133,7 +16214,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 586 TJN"
   - "\U0001F1FA\U0001F1F8 US 587 VMS"
   - "\U0001F1F3\U0001F1F1 NL 588 SSS"
-  - "\U0001F1FA\U0001F1F8 US 589 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 589 VMS"
   - "\U0001F1FA\U0001F1F8 US 590 VMS"
   - "\U0001F1FA\U0001F1F8 US 591 VMS"
   - "\U0001F1FA\U0001F1F8 US 592 VMS"
@@ -16689,7 +16770,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 1142 VMS"
   - "\U0001F1E6\U0001F1FA AU 1143 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1144 TJN"
-  - "\U0001F1EE\U0001F1F9 IT 1145 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 1145 TJN"
   - "\U0001F1E6\U0001F1FA AU 1146 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1147 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1148 TJN"
@@ -17381,16 +17462,16 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1834 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1835 VMS"
   - "\U0001F1FA\U0001F1F3 UN 1836 VMS"
-  - "\U0001F1E9\U0001F1EA DE 1837 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1837 TJN"
   - "\U0001F1F0\U0001F1F7 KR 1838 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1839 TJN"
   - "\U0001F1F0\U0001F1F7 KR 1840 TJN"
   - "\U0001F1FA\U0001F1F8 US 1841 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 1842 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1842 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1843 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 1844 TJN"
+  - "\U0001F1E9\U0001F1EA DE 1844 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1845 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 1846 TJN"
+  - "\U0001F1FA\U0001F1F8 US 1846 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1847 TJN"
   - "\U0001F1FA\U0001F1F8 US 1848 TJN"
   - "\U0001F1EE\U0001F1F3 IN 1849 TJN"
@@ -17524,6 +17605,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 1977 VMS"
   - "\U0001F1E8\U0001F1F3 CN 1978 TJN"
   - "\U0001F1E8\U0001F1F3 CN 1979 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1980 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 1981 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1982 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1983 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1984 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1985 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1986 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1987 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 1988 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 1989 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 1990 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -18118,7 +18210,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 586 TJN"
   - "\U0001F1FA\U0001F1F8 US 587 VMS"
   - "\U0001F1F3\U0001F1F1 NL 588 SSS"
-  - "\U0001F1FA\U0001F1F8 US 589 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 589 VMS"
   - "\U0001F1FA\U0001F1F8 US 590 VMS"
   - "\U0001F1FA\U0001F1F8 US 591 VMS"
   - "\U0001F1FA\U0001F1F8 US 592 VMS"
@@ -18674,7 +18766,7 @@ proxy-groups:
   - "\U0001F1F0\U0001F1F7 KR 1142 VMS"
   - "\U0001F1E6\U0001F1FA AU 1143 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1144 TJN"
-  - "\U0001F1EE\U0001F1F9 IT 1145 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 1145 TJN"
   - "\U0001F1E6\U0001F1FA AU 1146 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1147 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1148 TJN"
@@ -19366,16 +19458,16 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 1834 VMS"
   - "\U0001F1EF\U0001F1F5 JP 1835 VMS"
   - "\U0001F1FA\U0001F1F3 UN 1836 VMS"
-  - "\U0001F1E9\U0001F1EA DE 1837 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1837 TJN"
   - "\U0001F1F0\U0001F1F7 KR 1838 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1839 TJN"
   - "\U0001F1F0\U0001F1F7 KR 1840 TJN"
   - "\U0001F1FA\U0001F1F8 US 1841 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 1842 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1842 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1843 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 1844 TJN"
+  - "\U0001F1E9\U0001F1EA DE 1844 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1845 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 1846 TJN"
+  - "\U0001F1FA\U0001F1F8 US 1846 TJN"
   - "\U0001F1ED\U0001F1F0 HK 1847 TJN"
   - "\U0001F1FA\U0001F1F8 US 1848 TJN"
   - "\U0001F1EE\U0001F1F3 IN 1849 TJN"
@@ -19509,5 +19601,16 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 1977 VMS"
   - "\U0001F1E8\U0001F1F3 CN 1978 TJN"
   - "\U0001F1E8\U0001F1F3 CN 1979 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1980 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 1981 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1982 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1983 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1984 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1985 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1986 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 1987 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 1988 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 1989 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 1990 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
