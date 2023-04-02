@@ -15,360 +15,7 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  server: oss-cn-shanghai.westdatacloud.top
-  port: 20048
-  password: 626351FA-3CA6-8118-FADF-CCDBCD620871
-  udp: true
-  skip-cert-verify: true
-  sni: oss-cn-shanghai.westdatacloud.top
-  network: tcp
-- type: ss
-  name: "\U0001F1E9\U0001F1EA DE 4 SSS"
-  server: 139.144.74.37
-  port: 33345
-  cipher: chacha20-ietf-poly1305
-  password: 0263389562
-- type: ss
-  name: "\U0001F1EF\U0001F1F5 JP 5 SSS"
-  server: 43.207.117.53
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 6 VMS"
-  server: 108.186.116.172
-  port: 55005
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: eu3.glucy.top
-  server: eu3.glucy.top
-  port: 443
-  uuid: ea7e0bc4-739b-4afb-a5cb-4331a257b7ea
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  server: 111.23.252.214
-  port: 59902
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1F0\U0001F1F7 KR 9 VMS"
-  ws-opts:
-    path: /kor1/getData
-  server: 210.87.202.3
-  port: 25271
-  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
-  alterId: '64'
-  cipher: auto
-  network: ws
-  tls: true
-- type: ss
-  name: "\U0001F1EF\U0001F1F5 JP 10 SSS"
-  server: 43.207.214.255
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: "\U0001F1FA\U0001F1F8 US 11 SSS"
-  server: 35.167.207.100
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 12 VMS"
-  ws-opts:
-    path: /
-  server: v13.583181.xyz
-  port: 2053
-  uuid: ddf4b939-13c5-464b-80d2-fa29736b1d1f
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: trojan
-  name: "\U0001F1EE\U0001F1F3 IN 13 TJN"
-  server: 152.70.74.66
-  port: 443
-  password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- type: ss
-  name: "\U0001F1F0\U0001F1F7 KR 14 SSS"
-  server: 43.201.29.13
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 15 VMS"
-  server: 108.186.5.10
-  port: 59010
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 16 VMS"
-  server: 142.4.97.72
-  port: 44942
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 17 VMS"
-  ws-opts:
-    path: /graphql
-  server: dl.filmino.online
-  port: 2096
-  uuid: 6cf2745b-f46e-4820-8b1d-00082b2544b0
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 18 VMS"
-  server: 156.245.8.121
-  port: 59592
-  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 19 VMS"
-  ws-opts:
-    path: /tg@aries
-    headers:
-      host: justhost.739256.xyz
-  server: justhost.739256.xyz
-  port: 443
-  uuid: 3a578e93-bce9-49d1-ebcd-901107f52739
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: ssr
-  name: "\U0001F1F0\U0001F1F7 KR 20 SSR"
-  server: kr1.vfun.icu
-  port: 443
-  protocol: auth_aes128_sha1
-  cipher: aes-256-cfb
-  obfs: plain
-  password: vyunme
-  obfs-param: ab93117422.jd.hk
-  protocol-param: 17422:TTp0SX
-- type: vmess
-  name: "\U0001F1EB\U0001F1F7 FR 21 VMS"
-  server: 156.249.18.135
-  port: 54086
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  alterId: '64'
-  cipher: auto
-- type: ss
-  name: "\U0001F1EF\U0001F1F5 JP 22 SSS"
-  server: 43.207.120.229
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 23 VMS"
-  ws-opts:
-    path: /huhublog
-  server: zhuyong.hucloud-dns.xyz
-  port: 443
-  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 24 VMS"
-  server: 142.4.108.172
-  port: 49890
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 25 VMS"
-  server: 140.99.94.42
-  port: 44108
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 26 VMS"
-  server: 198.2.208.180
-  port: 35402
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-- type: ss
-  name: "\U0001F1F0\U0001F1F7 KR 27 SSS"
-  server: 43.201.57.87
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: "\U0001F1EF\U0001F1F5 JP 28 SSS"
-  server: 43.207.205.208
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 29 VMS"
-  server: 142.4.121.248
-  port: 45129
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: ss
-  name: "\U0001F1F3\U0001F1F1 NL 30 SSS"
-  server: 172.99.188.99
-  port: 2375
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 31 VMS"
-  server: 142.4.108.56
-  port: 59109
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 32 VMS"
-  server: 156.225.67.107
-  port: 51234
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  alterId: '64'
-  cipher: auto
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 33 VMS"
-  server: 156.225.67.78
-  port: 49882
-  uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  ws-opts:
-    path: /aaaa
-  server: dj02.yumili.cf
-  port: 2096
-  uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: ss
-  name: "\U0001F1F0\U0001F1F7 KR 35 SSS"
-  server: 43.201.70.114
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: "\U0001F1E8\U0001F1F3 CN 36 SSS"
-  server: 14.29.124.168
-  port: 24006
-  cipher: aes-128-cfb
-  password: QazEdcTgb159@$*
-- type: ss
-  name: "\U0001F1E8\U0001F1F3 CN 37 SSS"
-  server: v3-us.aliyun-obsd.xyz
-  port: 5632
-  cipher: aes-128-gcm
-  password: f2ae2629-89da-452f-b1f6-544666600bb4
-- type: trojan
-  name: "\U0001F1ED\U0001F1F0 HK 38 TJN"
-  server: 103.103.245.125
-  port: 50418
-  password: a70b39d1-62ea-4d9e-b681-9c5408352234
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- type: ss
-  name: "\U0001F1FA\U0001F1F8 US 39 SSS"
-  server: 35.90.18.88
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: ss
-  name: "\U0001F1F0\U0001F1F7 KR 40 SSS"
-  server: 43.200.244.234
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- type: trojan
-  name: "\U0001F1F0\U0001F1F7 KR 41 TJN"
-  server: zi.you.usdtvfk.top
-  port: 443
-  password: 2f254511-6563-4e3a-a5c9-56bfb66d9186
-  udp: true
-  skip-cert-verify: true
-  network: tcp
-- type: vmess
-  name: "\U0001F1E7\U0001F1FF BZ 42 VMS"
-  ws-opts:
-    path: /AUIKN8AU
-    headers:
-      host: oplg1.cfcdn2.xyz
-  server: 203.30.191.10
-  port: 443
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 43 VMS"
-  server: 64.32.4.53
-  port: 42175
-  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
-  alterId: '64'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 44 VMS"
-  ws-opts:
-    path: /
-  server: v14.583182.xyz
-  port: 8443
-  uuid: ddf4b939-13c5-464b-80d2-fa29736b1d1f
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 45 VMS"
-  server: 142.4.127.29
-  port: 50013
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '64'
-  cipher: auto
-- type: ss
-  name: "\U0001F1F0\U0001F1F7 KR 46 SSS"
-  server: 43.201.146.250
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: "\U0001F1FA\U0001F1F3 UN 47 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -383,7 +30,7 @@ proxies:
     path: /ca-nnc.ilovescp.com/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 48 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 4 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -398,7 +45,7 @@ proxies:
     path: /ra.679888.xyz/vm
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 5 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -413,7 +60,7 @@ proxies:
     path: /dp1.scproxy.top/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 50 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -428,7 +75,7 @@ proxies:
     path: /ca.ilovescp.com/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 51 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -443,7 +90,7 @@ proxies:
     path: /ca.ilovescp.com/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 52 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -458,7 +105,7 @@ proxies:
     path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 53 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 9 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -473,7 +120,7 @@ proxies:
     path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 54 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 10 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -488,7 +135,7 @@ proxies:
     path: /fr1.v2ray5.xyz/9JZFDTKE
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 55 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 11 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -503,7 +150,7 @@ proxies:
     path: /fr1.v2ray5.xyz/9JZFDTKE
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 56 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -518,7 +165,7 @@ proxies:
     path: /dp1.scproxy.top/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 57 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 13 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -533,7 +180,7 @@ proxies:
     path: /vjp3.0bad.com/chat
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 58 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 14 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -548,7 +195,7 @@ proxies:
     path: /vjp2.0bad.com/chat
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 59 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 15 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -563,7 +210,7 @@ proxies:
     path: /vus5.0bad.com/chat
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 60 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 16 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -578,7 +225,7 @@ proxies:
     path: /dp3.scproxy.top/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 61 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 17 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -593,7 +240,7 @@ proxies:
     path: /best1.glucy.top/11
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 62 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 18 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -608,7 +255,7 @@ proxies:
     path: /oplg1.zhujicn2.com/5QNROSRV
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 63 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 19 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -623,7 +270,7 @@ proxies:
     path: /justhost.739256.xyz/tg@aries
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 64 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 20 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -638,7 +285,7 @@ proxies:
     path: /dp3.scproxy.top/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 65 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -653,7 +300,7 @@ proxies:
     path: /dg.glucy.top/111
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 66 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 22 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -668,7 +315,7 @@ proxies:
     path: /ny1.sharecentrepro.org/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 67 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 23 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -683,7 +330,7 @@ proxies:
     path: /eu6.739256.xyz/
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 68 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 24 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -696,6 +343,666 @@ proxies:
   network: ws
   ws-opts:
     path: /oplg1.cfcdn2.xyz/AUIKN8AU
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 25 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /77.v2ray1.xyz/A2DJOPFT
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 26 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /77.v2ray1.xyz/A2DJOPFT
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 28 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 29 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 30 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 31 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 32 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 33 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 35 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 36 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /lv2.sharecentrepro.org/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 38 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /lv2.sharecentrepro.org/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /surongwei.eu.org/reffs7y26g0ua
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 40 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 41 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 44 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 45 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /lv1.sharecentrepro.org/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 46 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 47 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /ming2.kiwireich.com/ray
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 48 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 1f1b1672-6ca9-4b4c-bc15-e601a1de6199
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /n1674862930.eaurlmj.cn/
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /ming2.kiwireich.com/ray
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 50 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /sg1.sharecentrepro.com/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 51 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 52 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /sg1.sharecentrepro.com/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 53 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 2b1e417b-9575-498f-bde9-6958188e9532
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /n1674862978.ppinygu.cn/
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 54 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 65632ff6-be8a-46fd-c6cc-a9d8135a690d
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /haxeu3.glucy.top/
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 55 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 8075c5a0-cfd7-11ed-b135-205c6d5f5d78
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /us-1.0rd.net/
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 56 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /sgm2.targoocloud.live/?ed=2048
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 57 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /vsg1.0bad.com/chat
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 58 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 59 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 60 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 61 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /Amsterdam.v2ray.online/speedtest
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 62 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 3c530a57-f1f0-4fe0-92c3-7287a5251f97
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /1st.starvskii2world.top/cf01
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 63 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 64 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 65 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 4e75e69b-eae0-4654-9aa6-0ce45deaa0b8
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /fr1-vmess.greenssh.xyz/vmess
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 66 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 4e75e69b-eae0-4654-9aa6-0ce45deaa0b8
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /fr1-vmess.greenssh.xyz/
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 67 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /dp1.scproxy.top/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 68 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 69 VMS"
@@ -703,14 +1010,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /77.v2ray1.xyz/A2DJOPFT
+    path: /oplg1.zhujicn2.com/5QNROSRV
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 70 VMS"
@@ -718,6 +1025,51 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 71 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 72 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 73 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
   uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: 0
   tls: true
@@ -728,64 +1080,19 @@ proxies:
     path: /77.v2ray1.xyz/A2DJOPFT
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 71 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 72 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 73 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 74 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /lv2.sharecentrepro.org/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 75 VMS"
@@ -793,14 +1100,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 860b543f-5039-473b-96ec-4494aebe4416
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /hongbozeng.ml/xuexi
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 76 VMS"
@@ -868,14 +1175,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /n1674862929.gofdwgy.cn/
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 81 VMS"
@@ -883,14 +1190,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /lv2.sharecentrepro.org/shirker
+    path: /77.v2ray1.xyz/A2DJOPFT
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 82 VMS"
@@ -898,32 +1205,17 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /lv2.sharecentrepro.org/shirker
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 83 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /surongwei.eu.org/reffs7y26g0ua
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 84 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -936,6 +1228,21 @@ proxies:
   network: ws
   ws-opts:
     path: /oplg1.zhujicn2.com/5QNROSRV
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 84 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 85 VMS"
@@ -973,14 +1280,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /77.v2ray1.xyz/A2DJOPFT
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 88 VMS"
@@ -988,14 +1295,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 89 VMS"
@@ -1003,14 +1310,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /lv1.sharecentrepro.org/shirker
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 90 VMS"
@@ -1018,14 +1325,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /vde2.0bad.com/chat
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 91 VMS"
@@ -1033,14 +1340,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /ming2.kiwireich.com/ray
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 92 VMS"
@@ -1048,14 +1355,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 1f1b1672-6ca9-4b4c-bc15-e601a1de6199
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /n1674862930.eaurlmj.cn/
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 93 VMS"
@@ -1063,14 +1370,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /ming2.kiwireich.com/ray
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 94 VMS"
@@ -1078,14 +1385,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /sg1.sharecentrepro.com/shirker
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 95 VMS"
@@ -1108,14 +1415,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /sg1.sharecentrepro.com/shirker
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 97 VMS"
@@ -1123,14 +1430,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 2b1e417b-9575-498f-bde9-6958188e9532
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /n1674862978.ppinygu.cn/
+    path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 98 VMS"
@@ -1138,14 +1445,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 65632ff6-be8a-46fd-c6cc-a9d8135a690d
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /haxeu3.glucy.top/
+    path: /lv2.sharecentrepro.org/shirker
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 99 VMS"
@@ -1153,14 +1460,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 8075c5a0-cfd7-11ed-b135-205c6d5f5d78
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /us-1.0rd.net/
+    path: /ahsorathiyaa.fly.dev/vmess
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 100 VMS"
@@ -1168,17 +1475,32 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /sgm2.targoocloud.live/?ed=2048
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 101 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /lv1.sharecentrepro.org/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 102 VMS"
   type: vmess
   server: 162.159.35.252
   port: 443
@@ -1190,22 +1512,7 @@ proxies:
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /vsg1.0bad.com/chat
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 102 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    path: /vuk1.0bad.com/chat
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 103 VMS"
@@ -1213,14 +1520,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    path: /oplg1.zhujicn2.com/5QNROSRV
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 104 VMS"
@@ -1228,14 +1535,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    path: /oplg1.zhujicn2.com/5QNROSRV
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 105 VMS"
@@ -1243,14 +1550,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /Amsterdam.v2ray.online/speedtest
+    path: /oplg1.zhujicn2.com/5QNROSRV
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 106 VMS"
@@ -1258,14 +1565,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 3c530a57-f1f0-4fe0-92c3-7287a5251f97
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /1st.starvskii2world.top/cf01
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 107 VMS"
@@ -1273,14 +1580,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 108 VMS"
@@ -1303,36 +1610,6 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 4e75e69b-eae0-4654-9aa6-0ce45deaa0b8
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /fr1-vmess.greenssh.xyz/vmess
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 110 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 4e75e69b-eae0-4654-9aa6-0ce45deaa0b8
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /fr1-vmess.greenssh.xyz/
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 111 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
   uuid: 823c31da-701f-483d-b36e-896e5cf0987a
   alterId: 0
   tls: true
@@ -1340,7 +1617,37 @@ proxies:
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /dp1.scproxy.top/shirker
+    path: /ny1.sharecentrepro.org/shirker
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 110 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: e869590b-3f0b-45ea-8ec5-d0c72b8023b0
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /vceu3-xxx.875555.xyz/ray
+    headers:
+      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+- name: "\U0001F1FA\U0001F1F3 UN 111 VMS"
+  type: vmess
+  server: 162.159.35.252
+  port: 443
+  cipher: auto
+  uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
+  network: ws
+  ws-opts:
+    path: /n1674862929.gofdwgy.cn/
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 112 VMS"
@@ -1348,14 +1655,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 97b37ac2-8c30-42d2-f398-81faacc821c3
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
+    path: /sr.grensky.sbs/speed
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 113 VMS"
@@ -1363,14 +1670,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /77.v2ray1.xyz/A2DJOPFT
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 114 VMS"
@@ -1378,14 +1685,14 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
   alterId: 0
   tls: true
   skip-cert-verify: true
   servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
   ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
+    path: /oplg1.cfcdn2.xyz/AUIKN8AU
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
 - name: "\U0001F1FA\U0001F1F3 UN 115 VMS"
@@ -1408,186 +1715,6 @@ proxies:
   server: 162.159.35.252
   port: 443
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 117 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /77.v2ray1.xyz/A2DJOPFT
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 118 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /lv2.sharecentrepro.org/shirker
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 119 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 860b543f-5039-473b-96ec-4494aebe4416
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /hongbozeng.ml/xuexi
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 120 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 121 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 122 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 123 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 124 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /n1674862929.gofdwgy.cn/
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 125 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /77.v2ray1.xyz/A2DJOPFT
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 126 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 127 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 128 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   tls: true
@@ -1598,536 +1725,409 @@ proxies:
     path: /clash6.ssr-free.xyz/dongtaiwang.com
     headers:
       host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 129 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
+- type: trojan
+  name: "\U0001F1E8\U0001F1F3 CN 117 TJN"
+  server: oss-cn-shanghai.westdatacloud.top
+  port: 20048
+  password: 626351FA-3CA6-8118-FADF-CCDBCD620871
+  udp: true
   skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 130 VMS"
-  type: vmess
-  server: 162.159.35.252
+  sni: oss-cn-shanghai.westdatacloud.top
+  network: tcp
+- type: ss
+  name: "\U0001F1E9\U0001F1EA DE 118 SSS"
+  server: 139.144.74.37
+  port: 33345
+  cipher: chacha20-ietf-poly1305
+  password: 0263389562
+- type: ss
+  name: "\U0001F1EF\U0001F1F5 JP 119 SSS"
+  server: 43.207.117.53
   port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 120 VMS"
+  server: 108.186.116.172
+  port: 55005
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 121 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: eu3.glucy.top
+  server: eu3.glucy.top
+  port: 443
+  uuid: ea7e0bc4-739b-4afb-a5cb-4331a257b7ea
+  alterId: '0'
+  cipher: auto
+  network: ws
   tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 131 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 122 VMS"
+  server: 111.23.252.214
+  port: 59902
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: 0
+  network: tcp
+- type: vmess
+  name: "\U0001F1F0\U0001F1F7 KR 123 VMS"
+  ws-opts:
+    path: /kor1/getData
+  server: 210.87.202.3
+  port: 25271
+  uuid: a23f272d-2186-4d68-8f2a-2d8847c603be
+  alterId: '64'
+  cipher: auto
+  network: ws
   tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /77.v2ray1.xyz/A2DJOPFT
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 132 VMS"
-  type: vmess
-  server: 162.159.35.252
+- type: ss
+  name: "\U0001F1EF\U0001F1F5 JP 124 SSS"
+  server: 43.207.214.255
   port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: "\U0001F1FA\U0001F1F8 US 125 SSS"
+  server: 35.167.207.100
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 126 VMS"
+  ws-opts:
+    path: /
+  server: v13.583181.xyz
+  port: 2053
+  uuid: ddf4b939-13c5-464b-80d2-fa29736b1d1f
+  alterId: '0'
   cipher: auto
+  network: ws
+  tls: true
+- type: trojan
+  name: "\U0001F1EE\U0001F1F3 IN 127 TJN"
+  server: 152.70.74.66
+  port: 443
+  password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: ss
+  name: "\U0001F1F0\U0001F1F7 KR 128 SSS"
+  server: 43.201.29.13
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 129 VMS"
+  server: 108.186.5.10
+  port: 59010
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 130 VMS"
+  server: 142.4.97.72
+  port: 44942
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 131 VMS"
+  ws-opts:
+    path: /graphql
+  server: dl.filmino.online
+  port: 2096
+  uuid: 6cf2745b-f46e-4820-8b1d-00082b2544b0
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0 HK 132 VMS"
+  server: 156.245.8.121
+  port: 59592
+  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 133 VMS"
+  ws-opts:
+    path: /tg@aries
+    headers:
+      host: justhost.739256.xyz
+  server: justhost.739256.xyz
+  port: 443
+  uuid: 3a578e93-bce9-49d1-ebcd-901107f52739
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: ssr
+  name: "\U0001F1F0\U0001F1F7 KR 134 SSR"
+  server: kr1.vfun.icu
+  port: 443
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: plain
+  password: vyunme
+  obfs-param: ab93117422.jd.hk
+  protocol-param: 17422:TTp0SX
+- type: vmess
+  name: "\U0001F1EB\U0001F1F7 FR 135 VMS"
+  server: 156.249.18.135
+  port: 54086
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  alterId: '64'
+  cipher: auto
+- type: ss
+  name: "\U0001F1EF\U0001F1F5 JP 136 SSS"
+  server: 43.207.120.229
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 137 VMS"
+  ws-opts:
+    path: /huhublog
+  server: zhuyong.hucloud-dns.xyz
+  port: 443
+  uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 138 VMS"
+  server: 142.4.108.172
+  port: 49890
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 139 VMS"
+  server: 140.99.94.42
+  port: 44108
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 140 VMS"
+  server: 198.2.208.180
+  port: 35402
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+- type: ss
+  name: "\U0001F1F0\U0001F1F7 KR 141 SSS"
+  server: 43.201.57.87
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: "\U0001F1EF\U0001F1F5 JP 142 SSS"
+  server: 43.207.205.208
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 143 VMS"
+  server: 142.4.121.248
+  port: 45129
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: ss
+  name: "\U0001F1F3\U0001F1F1 NL 144 SSS"
+  server: 172.99.188.99
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 145 VMS"
+  server: 142.4.108.56
+  port: 59109
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 146 VMS"
+  server: 156.225.67.107
+  port: 51234
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  alterId: '64'
+  cipher: auto
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 147 VMS"
+  server: 156.225.67.78
+  port: 49882
+  uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 148 VMS"
+  ws-opts:
+    path: /aaaa
+  server: dj02.yumili.cf
+  port: 2096
+  uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: ss
+  name: "\U0001F1F0\U0001F1F7 KR 149 SSS"
+  server: 43.201.70.114
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: "\U0001F1E8\U0001F1F3 CN 150 SSS"
+  server: 14.29.124.168
+  port: 24006
+  cipher: aes-128-cfb
+  password: QazEdcTgb159@$*
+- type: ss
+  name: "\U0001F1E8\U0001F1F3 CN 151 SSS"
+  server: v3-us.aliyun-obsd.xyz
+  port: 5632
+  cipher: aes-128-gcm
+  password: f2ae2629-89da-452f-b1f6-544666600bb4
+- type: trojan
+  name: "\U0001F1ED\U0001F1F0 HK 152 TJN"
+  server: 103.103.245.125
+  port: 50418
+  password: a70b39d1-62ea-4d9e-b681-9c5408352234
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: ss
+  name: "\U0001F1FA\U0001F1F8 US 153 SSS"
+  server: 35.90.18.88
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: ss
+  name: "\U0001F1F0\U0001F1F7 KR 154 SSS"
+  server: 43.200.244.234
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: trojan
+  name: "\U0001F1F0\U0001F1F7 KR 155 TJN"
+  server: zi.you.usdtvfk.top
+  port: 443
+  password: 2f254511-6563-4e3a-a5c9-56bfb66d9186
+  udp: true
+  skip-cert-verify: true
+  network: tcp
+- type: vmess
+  name: "\U0001F1E7\U0001F1FF BZ 156 VMS"
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      host: oplg1.cfcdn2.xyz
+  server: 203.30.191.10
+  port: 443
   uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 133 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
+  alterId: '0'
   cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 134 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 157 VMS"
+  server: 64.32.4.53
+  port: 42175
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
+  alterId: '64'
   cipher: auto
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 158 VMS"
   ws-opts:
-    path: /vde2.0bad.com/chat
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 135 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
+    path: /
+  server: v14.583182.xyz
+  port: 8443
+  uuid: ddf4b939-13c5-464b-80d2-fa29736b1d1f
+  alterId: '0'
   cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
   network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 136 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 159 VMS"
+  server: 142.4.127.29
+  port: 50013
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
   cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 137 VMS"
-  type: vmess
-  server: 162.159.35.252
+- type: ss
+  name: "\U0001F1F0\U0001F1F7 KR 160 SSS"
+  server: 43.201.146.250
   port: 443
-  cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 138 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 139 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 140 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 141 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 142 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /lv2.sharecentrepro.org/shirker
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 143 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /ahsorathiyaa.fly.dev/vmess
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 144 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 145 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /lv1.sharecentrepro.org/shirker
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 146 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /vuk1.0bad.com/chat
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 147 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 148 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 149 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 150 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 151 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 152 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 153 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /ny1.sharecentrepro.org/shirker
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 154 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: e869590b-3f0b-45ea-8ec5-d0c72b8023b0
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /vceu3-xxx.875555.xyz/ray
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 155 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 9052bc7a-ccae-47c8-aafb-f732e7320cfe
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /n1674862929.gofdwgy.cn/
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 156 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 97b37ac2-8c30-42d2-f398-81faacc821c3
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /sr.grensky.sbs/speed
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 157 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /77.v2ray1.xyz/A2DJOPFT
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 158 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.cfcdn2.xyz/AUIKN8AU
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 159 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /oplg1.zhujicn2.com/5QNROSRV
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
-- name: "\U0001F1FA\U0001F1F3 UN 160 VMS"
-  type: vmess
-  server: 162.159.35.252
-  port: 443
-  cipher: auto
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  servername: late-poetry-125a.ahmadi-reza-63.workers.dev
-  network: ws
-  ws-opts:
-    path: /clash6.ssr-free.xyz/dongtaiwang.com
-    headers:
-      host: late-poetry-125a.ahmadi-reza-63.workers.dev
+  cipher: aes-256-cfb
+  password: amazonskr05
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1E9\U0001F1EA DE 4 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 5 SSS"
-  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 9 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 10 SSS"
-  - "\U0001F1FA\U0001F1F8 US 11 SSS"
-  - "\U0001F1FA\U0001F1F8 US 12 VMS"
-  - "\U0001F1EE\U0001F1F3 IN 13 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
-  - "\U0001F1FA\U0001F1F8 US 15 VMS"
-  - "\U0001F1FA\U0001F1F8 US 16 VMS"
-  - "\U0001F1FA\U0001F1F8 US 17 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 18 VMS"
-  - "\U0001F1FA\U0001F1F8 US 19 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 20 SSR"
-  - "\U0001F1EB\U0001F1F7 FR 21 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 22 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 16 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1FA\U0001F1F3 UN 23 VMS"
-  - "\U0001F1FA\U0001F1F8 US 24 VMS"
-  - "\U0001F1FA\U0001F1F8 US 25 VMS"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 27 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 28 SSS"
-  - "\U0001F1FA\U0001F1F8 US 29 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 30 SSS"
-  - "\U0001F1FA\U0001F1F8 US 31 VMS"
-  - "\U0001F1FA\U0001F1F8 US 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 25 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 26 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 28 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 30 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 32 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 33 VMS"
   - "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 35 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 36 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 37 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 38 TJN"
-  - "\U0001F1FA\U0001F1F8 US 39 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 40 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 41 TJN"
-  - "\U0001F1E7\U0001F1FF BZ 42 VMS"
-  - "\U0001F1FA\U0001F1F8 US 43 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 35 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 36 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 38 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 40 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
   - "\U0001F1FA\U0001F1F3 UN 44 VMS"
-  - "\U0001F1FA\U0001F1F8 US 45 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 46 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 45 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 46 VMS"
   - "\U0001F1FA\U0001F1F3 UN 47 VMS"
   - "\U0001F1FA\U0001F1F3 UN 48 VMS"
   - "\U0001F1FA\U0001F1F3 UN 49 VMS"
@@ -2198,50 +2198,50 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 114 VMS"
   - "\U0001F1FA\U0001F1F3 UN 115 VMS"
   - "\U0001F1FA\U0001F1F3 UN 116 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 117 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 118 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 119 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 120 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 121 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 122 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 123 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 124 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 125 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 126 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 127 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 128 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 129 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 130 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 131 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 132 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 133 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 134 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 135 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 136 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 117 TJN"
+  - "\U0001F1E9\U0001F1EA DE 118 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 119 SSS"
+  - "\U0001F1FA\U0001F1F8 US 120 VMS"
+  - "\U0001F1FA\U0001F1F8 US 121 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 122 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 123 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 124 SSS"
+  - "\U0001F1FA\U0001F1F8 US 125 SSS"
+  - "\U0001F1FA\U0001F1F8 US 126 VMS"
+  - "\U0001F1EE\U0001F1F3 IN 127 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 128 SSS"
+  - "\U0001F1FA\U0001F1F8 US 129 VMS"
+  - "\U0001F1FA\U0001F1F8 US 130 VMS"
+  - "\U0001F1FA\U0001F1F8 US 131 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 132 VMS"
+  - "\U0001F1FA\U0001F1F8 US 133 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 134 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 135 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 136 SSS"
   - "\U0001F1FA\U0001F1F3 UN 137 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 138 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 139 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 140 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 141 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 142 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 143 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 144 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 145 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 146 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 147 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 148 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 149 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 150 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 151 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 152 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 153 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 154 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 155 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 156 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 157 VMS"
+  - "\U0001F1FA\U0001F1F8 US 138 VMS"
+  - "\U0001F1FA\U0001F1F8 US 139 VMS"
+  - "\U0001F1FA\U0001F1F8 US 140 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 141 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 142 SSS"
+  - "\U0001F1FA\U0001F1F8 US 143 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 144 SSS"
+  - "\U0001F1FA\U0001F1F8 US 145 VMS"
+  - "\U0001F1FA\U0001F1F8 US 146 VMS"
+  - "\U0001F1FA\U0001F1F8 US 147 VMS"
+  - "\U0001F1FA\U0001F1F8 US 148 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 149 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 150 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 151 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 152 TJN"
+  - "\U0001F1FA\U0001F1F8 US 153 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 154 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 155 TJN"
+  - "\U0001F1E7\U0001F1FF BZ 156 VMS"
+  - "\U0001F1FA\U0001F1F8 US 157 VMS"
   - "\U0001F1FA\U0001F1F3 UN 158 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 159 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 160 VMS"
+  - "\U0001F1FA\U0001F1F8 US 159 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 160 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2250,50 +2250,50 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 3 TJN"
-  - "\U0001F1E9\U0001F1EA DE 4 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 5 SSS"
-  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 5 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 9 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 10 SSS"
-  - "\U0001F1FA\U0001F1F8 US 11 SSS"
-  - "\U0001F1FA\U0001F1F8 US 12 VMS"
-  - "\U0001F1EE\U0001F1F3 IN 13 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
-  - "\U0001F1FA\U0001F1F8 US 15 VMS"
-  - "\U0001F1FA\U0001F1F8 US 16 VMS"
-  - "\U0001F1FA\U0001F1F8 US 17 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 18 VMS"
-  - "\U0001F1FA\U0001F1F8 US 19 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 20 SSR"
-  - "\U0001F1EB\U0001F1F7 FR 21 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 22 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 10 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 16 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1FA\U0001F1F3 UN 23 VMS"
-  - "\U0001F1FA\U0001F1F8 US 24 VMS"
-  - "\U0001F1FA\U0001F1F8 US 25 VMS"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 27 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 28 SSS"
-  - "\U0001F1FA\U0001F1F8 US 29 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 30 SSS"
-  - "\U0001F1FA\U0001F1F8 US 31 VMS"
-  - "\U0001F1FA\U0001F1F8 US 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 25 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 26 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 28 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 29 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 30 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 32 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 33 VMS"
   - "\U0001F1FA\U0001F1F3 UN 34 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 35 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 36 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 37 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 38 TJN"
-  - "\U0001F1FA\U0001F1F8 US 39 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 40 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 41 TJN"
-  - "\U0001F1E7\U0001F1FF BZ 42 VMS"
-  - "\U0001F1FA\U0001F1F8 US 43 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 35 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 36 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 38 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 40 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
   - "\U0001F1FA\U0001F1F3 UN 44 VMS"
-  - "\U0001F1FA\U0001F1F8 US 45 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 46 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 45 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 46 VMS"
   - "\U0001F1FA\U0001F1F3 UN 47 VMS"
   - "\U0001F1FA\U0001F1F3 UN 48 VMS"
   - "\U0001F1FA\U0001F1F3 UN 49 VMS"
@@ -2364,49 +2364,49 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 114 VMS"
   - "\U0001F1FA\U0001F1F3 UN 115 VMS"
   - "\U0001F1FA\U0001F1F3 UN 116 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 117 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 118 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 119 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 120 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 121 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 122 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 123 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 124 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 125 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 126 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 127 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 128 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 129 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 130 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 131 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 132 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 133 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 134 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 135 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 136 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 117 TJN"
+  - "\U0001F1E9\U0001F1EA DE 118 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 119 SSS"
+  - "\U0001F1FA\U0001F1F8 US 120 VMS"
+  - "\U0001F1FA\U0001F1F8 US 121 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 122 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 123 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 124 SSS"
+  - "\U0001F1FA\U0001F1F8 US 125 SSS"
+  - "\U0001F1FA\U0001F1F8 US 126 VMS"
+  - "\U0001F1EE\U0001F1F3 IN 127 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 128 SSS"
+  - "\U0001F1FA\U0001F1F8 US 129 VMS"
+  - "\U0001F1FA\U0001F1F8 US 130 VMS"
+  - "\U0001F1FA\U0001F1F8 US 131 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 132 VMS"
+  - "\U0001F1FA\U0001F1F8 US 133 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 134 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 135 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 136 SSS"
   - "\U0001F1FA\U0001F1F3 UN 137 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 138 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 139 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 140 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 141 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 142 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 143 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 144 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 145 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 146 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 147 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 148 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 149 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 150 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 151 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 152 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 153 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 154 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 155 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 156 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 157 VMS"
+  - "\U0001F1FA\U0001F1F8 US 138 VMS"
+  - "\U0001F1FA\U0001F1F8 US 139 VMS"
+  - "\U0001F1FA\U0001F1F8 US 140 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 141 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 142 SSS"
+  - "\U0001F1FA\U0001F1F8 US 143 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 144 SSS"
+  - "\U0001F1FA\U0001F1F8 US 145 VMS"
+  - "\U0001F1FA\U0001F1F8 US 146 VMS"
+  - "\U0001F1FA\U0001F1F8 US 147 VMS"
+  - "\U0001F1FA\U0001F1F8 US 148 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 149 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 150 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 151 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 152 TJN"
+  - "\U0001F1FA\U0001F1F8 US 153 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 154 SSS"
+  - "\U0001F1F0\U0001F1F7 KR 155 TJN"
+  - "\U0001F1E7\U0001F1FF BZ 156 VMS"
+  - "\U0001F1FA\U0001F1F8 US 157 VMS"
   - "\U0001F1FA\U0001F1F3 UN 158 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 159 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 160 VMS"
+  - "\U0001F1FA\U0001F1F8 US 159 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 160 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
