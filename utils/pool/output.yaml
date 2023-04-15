@@ -564,6 +564,160 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
+- name: "\U0001F1FA\U0001F1F8 US 53 VMS"
+  type: vmess
+  server: us-east-1.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: us-east-1.292228.xyz
+- name: "\U0001F1FA\U0001F1F3 UN 54 VMS"
+  type: vmess
+  server: target.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: eu-gb-south.292228.xyz
+- name: "\U0001F1F0\U0001F1F7 KR 55 VMS"
+  type: vmess
+  server: ap-kr-north-2.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-kr-north-2.292228.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 56 VMS"
+  type: vmess
+  server: ap-jp-west-1.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-jp-west-1.292228.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 57 VMS"
+  type: vmess
+  server: ap-jp-west-2.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-jp-west-2.292228.xyz
+- name: "\U0001F1EF\U0001F1F5 JP 58 VMS"
+  type: vmess
+  server: ap-jp-west-3.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-jp-west-3.292228.xyz
+- name: "\U0001F1FA\U0001F1F3 UN 59 VMS"
+  type: vmess
+  server: ap-sg-central-1.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-sg-central-1.292228.xyz
+- name: "\U0001F1FA\U0001F1F3 UN 60 VMS"
+  type: vmess
+  server: ap-sg-central-2.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-sg-central-2.292228.xyz
+- name: "\U0001F1EE\U0001F1F3 IN 61 VMS"
+  type: vmess
+  server: ap-in-west.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: ap-in-west.292228.xyz
+- name: "\U0001F1EE\U0001F1EA IE 62 VMS"
+  type: vmess
+  server: eu-ie-east.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: eu-ie-east.292228.xyz
+- name: "\U0001F1E9\U0001F1EA DE 63 VMS"
+  type: vmess
+  server: eu-de-west-2.292228.xyz
+  port: 80
+  cipher: auto
+  uuid: 22873fd1-2db8-4820-af1d-2843107ee744
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /filetransfer
+    headers:
+      host: eu-de-west-2.292228.xyz
 proxy-groups:
 - name: automatic
   type: url-test
@@ -620,6 +774,17 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 50 VMS"
   - "\U0001F1E8\U0001F1F3 CN 51 VMS"
   - "\U0001F1EE\U0001F1F7 IR 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 54 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 55 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 56 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 57 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 58 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 59 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 60 VMS"
+  - "\U0001F1EE\U0001F1F3 IN 61 VMS"
+  - "\U0001F1EE\U0001F1EA IE 62 VMS"
+  - "\U0001F1E9\U0001F1EA DE 63 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -678,5 +843,16 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 50 VMS"
   - "\U0001F1E8\U0001F1F3 CN 51 VMS"
   - "\U0001F1EE\U0001F1F7 IR 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 54 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 55 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 56 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 57 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 58 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 59 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 60 VMS"
+  - "\U0001F1EE\U0001F1F3 IN 61 VMS"
+  - "\U0001F1EE\U0001F1EA IE 62 VMS"
+  - "\U0001F1E9\U0001F1EA DE 63 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
