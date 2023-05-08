@@ -303,7 +303,7 @@ proxies:
   password: e5d13389-59bf-4ae8-8237-d8dec8195e60
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
   type: vmess
   server: new8.huvicloud.com
   port: 443
@@ -447,6 +447,16 @@ proxies:
   cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
   protocol: origin
+- name: "\U0001F1FA\U0001F1F8 US 52 VMS"
+  type: vmess
+  server: 142.4.112.18
+  port: 51091
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
 proxy-groups:
 - name: automatic
   type: url-test
@@ -487,7 +497,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 34 TJN"
   - "\U0001F1ED\U0001F1F0 HK 35 TJN"
   - "\U0001F1ED\U0001F1F0 HK 36 TJN"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   - "\U0001F1F8\U0001F1EC SG 38 TJN"
   - "\U0001F1EF\U0001F1F5 JP 39 SSS"
   - "\U0001F1EF\U0001F1F5 JP 40 SSR"
@@ -502,6 +512,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 49 VMS"
   - "\U0001F1FA\U0001F1F8 US 50 VMS"
   - "\U0001F1F8\U0001F1EC SG 51 SSR"
+  - "\U0001F1FA\U0001F1F8 US 52 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -544,7 +555,7 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 34 TJN"
   - "\U0001F1ED\U0001F1F0 HK 35 TJN"
   - "\U0001F1ED\U0001F1F0 HK 36 TJN"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   - "\U0001F1F8\U0001F1EC SG 38 TJN"
   - "\U0001F1EF\U0001F1F5 JP 39 SSS"
   - "\U0001F1EF\U0001F1F5 JP 40 SSR"
@@ -559,5 +570,6 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 HK 49 VMS"
   - "\U0001F1FA\U0001F1F8 US 50 VMS"
   - "\U0001F1F8\U0001F1EC SG 51 SSR"
+  - "\U0001F1FA\U0001F1F8 US 52 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
