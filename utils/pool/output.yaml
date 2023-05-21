@@ -356,7 +356,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
   type: vmess
   server: jp1.01dj.sbs
   port: 443
@@ -467,7 +467,7 @@ proxies:
     path: /yxzbp
     headers:
       host: dp1.yxjnode.com
-- name: "\U0001F1FA\U0001F1F3 UN 48 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 48 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -525,7 +525,27 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 53 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 53 VMS"
+  type: vmess
+  server: 8.218.17.35
+  port: 2052
+  cipher: auto
+  uuid: 23182db5-e0b4-4453-a86c-c1f37d423b00
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: cc.maxop.tk
+- name: "\U0001F1F0\U0001F1F7 KR 54 SSS"
+  type: ss
+  server: 43.201.58.248
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F3 UN 55 VMS"
   type: vmess
   server: 127.0.0.1
   port: 443
@@ -535,7 +555,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ''
-- name: "\U0001F1FA\U0001F1F3 UN 54 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 56 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -547,31 +567,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 55 VMS"
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: 80
-  cipher: auto
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 56 VMS"
-  type: vmess
-  server: cf-lt.sharecentre.online
-  port: 80
-  cipher: auto
-  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 57 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 57 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -619,7 +615,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 61 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 61 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -631,7 +627,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 62 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 62 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -655,7 +651,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 64 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 64 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -679,7 +675,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F8 US 66 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 66 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -691,7 +687,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 67 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 67 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -703,7 +699,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 68 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 68 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -715,7 +711,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 69 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 69 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -727,7 +723,31 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: "\U0001F1FA\U0001F1F3 UN 70 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 70 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+- name: "\U0001F1FA\U0001F1F3 UN 71 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+- name: "\U0001F1FA\U0001F1F8 US 72 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -741,7 +761,7 @@ proxies:
     path: /shirker
     headers:
       host: sw.sharecentrepro.com
-- name: "\U0001F1FA\U0001F1F8 US 71 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 73 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -795,7 +815,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1E8\U0001F1E6 CA 35 VMS"
   - "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   - "\U0001F1F9\U0001F1FC TW 38 TJN"
   - "\U0001F1ED\U0001F1F0 HK 39 TJN"
   - "\U0001F1FA\U0001F1F8 US 40 TJN"
@@ -806,30 +826,32 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 48 VMS"
+  - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1FA\U0001F1F8 US 49 VMS"
   - "\U0001F1FA\U0001F1F3 UN 50 VMS"
   - "\U0001F1EE\U0001F1F7 IR 51 VMS"
   - "\U0001F1FA\U0001F1F8 US 52 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 53 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 54 VMS"
-  - "\U0001F1FA\U0001F1F8 US 55 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 56 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 57 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 53 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 54 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 55 VMS"
+  - "\U0001F1FA\U0001F1F8 US 56 VMS"
+  - "\U0001F1FA\U0001F1F8 US 57 VMS"
   - "\U0001F1FA\U0001F1F3 UN 58 VMS"
   - "\U0001F1FA\U0001F1F3 UN 59 VMS"
   - "\U0001F1FA\U0001F1F8 US 60 VMS"
-  - "\U0001F1FA\U0001F1F8 US 61 VMS"
-  - "\U0001F1FA\U0001F1F8 US 62 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 61 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 62 VMS"
   - "\U0001F1FA\U0001F1F3 UN 63 VMS"
-  - "\U0001F1FA\U0001F1F8 US 64 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 64 VMS"
   - "\U0001F1FA\U0001F1F3 UN 65 VMS"
-  - "\U0001F1FA\U0001F1F8 US 66 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 67 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 68 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 69 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 70 VMS"
-  - "\U0001F1FA\U0001F1F8 US 71 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 66 VMS"
+  - "\U0001F1FA\U0001F1F8 US 67 VMS"
+  - "\U0001F1FA\U0001F1F8 US 68 VMS"
+  - "\U0001F1FA\U0001F1F8 US 69 VMS"
+  - "\U0001F1FA\U0001F1F8 US 70 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 71 VMS"
+  - "\U0001F1FA\U0001F1F8 US 72 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 73 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -872,7 +894,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1E8\U0001F1E6 CA 35 VMS"
   - "\U0001F1E8\U0001F1F3 CN 36 VMS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   - "\U0001F1F9\U0001F1FC TW 38 TJN"
   - "\U0001F1ED\U0001F1F0 HK 39 TJN"
   - "\U0001F1FA\U0001F1F8 US 40 TJN"
@@ -883,29 +905,31 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 48 VMS"
+  - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1FA\U0001F1F8 US 49 VMS"
   - "\U0001F1FA\U0001F1F3 UN 50 VMS"
   - "\U0001F1EE\U0001F1F7 IR 51 VMS"
   - "\U0001F1FA\U0001F1F8 US 52 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 53 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 54 VMS"
-  - "\U0001F1FA\U0001F1F8 US 55 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 56 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 57 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 53 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 54 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 55 VMS"
+  - "\U0001F1FA\U0001F1F8 US 56 VMS"
+  - "\U0001F1FA\U0001F1F8 US 57 VMS"
   - "\U0001F1FA\U0001F1F3 UN 58 VMS"
   - "\U0001F1FA\U0001F1F3 UN 59 VMS"
   - "\U0001F1FA\U0001F1F8 US 60 VMS"
-  - "\U0001F1FA\U0001F1F8 US 61 VMS"
-  - "\U0001F1FA\U0001F1F8 US 62 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 61 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 62 VMS"
   - "\U0001F1FA\U0001F1F3 UN 63 VMS"
-  - "\U0001F1FA\U0001F1F8 US 64 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 64 VMS"
   - "\U0001F1FA\U0001F1F3 UN 65 VMS"
-  - "\U0001F1FA\U0001F1F8 US 66 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 67 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 68 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 69 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 70 VMS"
-  - "\U0001F1FA\U0001F1F8 US 71 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 66 VMS"
+  - "\U0001F1FA\U0001F1F8 US 67 VMS"
+  - "\U0001F1FA\U0001F1F8 US 68 VMS"
+  - "\U0001F1FA\U0001F1F8 US 69 VMS"
+  - "\U0001F1FA\U0001F1F8 US 70 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 71 VMS"
+  - "\U0001F1FA\U0001F1F8 US 72 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 73 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
