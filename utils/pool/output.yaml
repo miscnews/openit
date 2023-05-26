@@ -15,15 +15,7 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 3 TJN"
-  type: trojan
-  server: 163.123.192.154
-  port: 443
-  udp: true
-  password: 997a9caa-5950-476f-8614-462fb2e0ed18
-  sni: download.xn--mes358a9urctx.com
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
+- name: "\U0001F1FB\U0001F1EC VG 3 TJN"
   type: trojan
   server: cnamemk.ciscocdn1.live
   port: 443
@@ -34,13 +26,13 @@ proxies:
   network: ws
   ws-opts:
     path: /BLda1CCMAiWUNnzj51ltOjG4G3
-- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   type: ss
   server: 14.29.124.168
   port: 31046
   password: QazEdcTgb159@$*
   cipher: aes-128-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 6 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 5 VMS"
   type: vmess
   server: 3.wogg1.top
   port: 11203
@@ -50,13 +42,13 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 6 SSS"
   type: ss
   server: 02-1.qqingca.cc
   port: 20384
   password: 27e2f037-effd-493a-bd28-6004cd9ff1cf
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 8 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 7 VMS"
   type: vmess
   server: 183.237.20.158
   port: 40095
@@ -66,7 +58,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1FE CY 9 VMS"
+- name: "\U0001F1E8\U0001F1FE CY 8 VMS"
   type: vmess
   server: mkh3.blanku.me
   port: 443
@@ -80,7 +72,7 @@ proxies:
     path: /wss26268?ed=2048
     headers:
       host: freeservice.blanku.me
-- name: "\U0001F1EE\U0001F1E9 ID 10 TJN"
+- name: "\U0001F1EE\U0001F1E9 ID 9 TJN"
   type: trojan
   server: 103.169.7.11
   port: 80
@@ -88,7 +80,7 @@ proxies:
   password: c0d9da22-2569-4bed-a395-607d9e7ae687
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EE\U0001F1F3 IN 11 TJN"
+- name: "\U0001F1EE\U0001F1F3 IN 10 TJN"
   type: trojan
   server: 152.70.74.66
   port: 443
@@ -96,7 +88,7 @@ proxies:
   password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 12 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 11 VMS"
   type: vmess
   server: 45.88.43.239
   port: 46002
@@ -106,7 +98,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EF\U0001F1F5 JP 13 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 12 TJN"
   type: trojan
   server: fscsg.fscloud123456789.com
   port: 443
@@ -115,13 +107,13 @@ proxies:
   sni: fscsg.fscloud123456789.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F0\U0001F1F7 KR 14 SSS"
+- name: "\U0001F1F0\U0001F1F7 KR 13 SSS"
   type: ss
   server: 43.200.244.134
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: "\U0001F1F3\U0001F1F1 NL 15 VMS"
+- name: "\U0001F1F3\U0001F1F1 NL 14 VMS"
   type: vmess
   server: 188.114.98.93
   port: 2052
@@ -135,7 +127,7 @@ proxies:
     path: /qwer
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1F3\U0001F1F1 NL 16 VMS"
+- name: "\U0001F1F3\U0001F1F1 NL 15 VMS"
   type: vmess
   server: 188.114.99.143
   port: 2052
@@ -149,7 +141,7 @@ proxies:
     path: /qwer
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1F7\U0001F1F4 RO 17 VMS"
+- name: "\U0001F1F3\U0001F1F1 NL 16 VMS"
   type: vmess
   server: jpwarpdwnidb.76898102.xyz
   port: 2052
@@ -163,7 +155,7 @@ proxies:
     path: /vuesshtgk
     headers:
       host: jpwarpdwnidb.76898102.xyz
-- name: "\U0001F1F8\U0001F1EC SG 18 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 17 TJN"
   type: trojan
   server: 165.154.253.144
   port: 443
@@ -171,7 +163,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EC SG 19 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 18 TJN"
   type: trojan
   server: 165.154.253.111
   port: 443
@@ -179,7 +171,7 @@ proxies:
   password: 4aeda200-44c9-4168-8f2a-a00a72176d35
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 20 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 19 TJN"
   type: trojan
   server: 165.154.246.207
   port: 443
@@ -187,7 +179,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F9\U0001F1FC TW 21 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 20 TJN"
   type: trojan
   server: 165.154.226.194
   port: 443
@@ -195,7 +187,7 @@ proxies:
   password: 4aeda200-44c9-4168-8f2a-a00a72176d35
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F9\U0001F1FC TW 22 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 21 TJN"
   type: trojan
   server: 165.154.227.239
   port: 443
@@ -203,7 +195,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 23 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 22 TJN"
   type: trojan
   server: 165.154.246.229
   port: 443
@@ -211,7 +203,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F9\U0001F1FC TW 24 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 23 TJN"
   type: trojan
   server: stw3-tg-data.amazonwebservicess.com
   port: 443
@@ -219,7 +211,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F9\U0001F1FC TW 25 VMS"
+- name: "\U0001F1F9\U0001F1FC TW 24 VMS"
   type: vmess
   server: t2.bestcloud.tk
   port: 443
@@ -233,7 +225,7 @@ proxies:
     path: /2
     headers:
       host: er3.mybestjj.com
-- name: "\U0001F1FA\U0001F1F8 US 26 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 25 VMS"
   type: vmess
   server: 108.186.116.177
   port: 55005
@@ -243,7 +235,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 26 VMS"
   type: vmess
   server: 104.23.104.188
   port: 443
@@ -257,7 +249,7 @@ proxies:
     path: /qwer
     headers:
       host: zslbs.vtcss.top
-- name: "\U0001F1FA\U0001F1F8 US 28 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
   type: vmess
   server: 137.175.29.36
   port: 53986
@@ -267,7 +259,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 28 VMS"
   type: vmess
   server: 107.167.7.22
   port: 41654
@@ -277,7 +269,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 30 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
   type: vmess
   server: 38.63.0.69
   port: 443
@@ -287,7 +279,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F3 UN 31 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 30 VMS"
   type: vmess
   server: bp.nidaye.eu.org
   port: 443
@@ -301,7 +293,7 @@ proxies:
     path: /ndy58850
     headers:
       host: bp.nidaye.eu.org
-- name: "\U0001F1FA\U0001F1F8 US 32 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 31 VMS"
   type: vmess
   server: 142.0.132.38
   port: 50015
@@ -311,7 +303,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 33 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 32 TJN"
   type: trojan
   server: 163.123.192.153
   port: 443
@@ -320,7 +312,7 @@ proxies:
   sni: download.xn--mes358a9urctx.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 34 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 33 VMS"
   type: vmess
   server: las01.nigger.cyou
   port: 443
@@ -330,7 +322,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F8 US 35 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 34 VMS"
   type: vmess
   server: v2ray.online
   port: 443
@@ -344,7 +336,7 @@ proxies:
     path: /speedtest
     headers:
       host: Kansas.v2ray.online
-- name: "\U0001F1FA\U0001F1F3 UN 36 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 35 VMS"
   type: vmess
   server: 104.23.111.168
   port: 2052
@@ -358,7 +350,7 @@ proxies:
     path: /qwer
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 36 VMS"
   type: vmess
   server: cf.yxjnode.com
   port: 80
@@ -372,7 +364,7 @@ proxies:
     path: /yxzbp
     headers:
       host: dp4.yxjnode.com
-- name: "\U0001F1FA\U0001F1F8 US 38 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
   type: vmess
   server: 38.63.2.16
   port: 57723
@@ -382,7 +374,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 39 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 38 VMS"
   type: vmess
   server: 104.24.156.177
   port: 2052
@@ -396,13 +388,13 @@ proxies:
     path: /qwer
     headers:
       host: tou.vtcss.top
-- name: "\U0001F1FA\U0001F1F8 US 40 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 39 SSS"
   type: ss
   server: 216.52.183.243
   port: 80
   password: 83XvX4Vo%*3a
   cipher: aes-128-gcm
-- name: "\U0001F1FA\U0001F1F8 US 41 SSR"
+- name: "\U0001F1FA\U0001F1F8 US 40 SSR"
   type: ssr
   server: us-am3.eqnode.net
   port: 8081
@@ -410,7 +402,7 @@ proxies:
   cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
   protocol: origin
-- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 41 VMS"
   type: vmess
   server: 104.31.16.62
   port: 443
@@ -424,7 +416,7 @@ proxies:
     path: /Lsv4s7nS0ErewnEN
     headers:
       host: channel3.unlimiteddev.tk
-- name: "\U0001F1FA\U0001F1F3 UN 43 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 42 VMS"
   type: vmess
   server: cf-dx-dns.sharecentre.online
   port: 80
@@ -438,7 +430,7 @@ proxies:
     path: /shirker
     headers:
       host: in.sharecentrepro.com
-- name: "\U0001F1FA\U0001F1F8 US 44 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 43 VMS"
   type: vmess
   server: cf.noaries.de
   port: 2052
@@ -452,7 +444,7 @@ proxies:
     path: /aries?ed=2048
     headers:
       host: azstu-it.iiio.wiki
-- name: "\U0001F1FA\U0001F1F8 US 45 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 44 VMS"
   type: vmess
   server: 192.203.230.108
   port: 443
@@ -466,7 +458,7 @@ proxies:
     path: /djjc/jp1
     headers:
       host: jp1.djjc.sbs
-- name: "\U0001F1FA\U0001F1F8 US 46 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 45 VMS"
   type: vmess
   server: cf-lt-dns.sharecentre.online
   port: 80
@@ -480,7 +472,7 @@ proxies:
     path: /shirker
     headers:
       host: ny1.sharecentrepro.org
-- name: "\U0001F1FA\U0001F1F3 UN 47 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 46 VMS"
   type: vmess
   server: 104.21.53.35
   port: 80
@@ -494,7 +486,7 @@ proxies:
     path: /yxzbp
     headers:
       host: buyvm1.yxjnode.com
-- name: "\U0001F1FA\U0001F1F3 UN 48 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 47 VMS"
   type: vmess
   server: ava.game.naver.com
   port: 443
@@ -508,7 +500,7 @@ proxies:
     path: /worryfree
     headers:
       host: v2ray3.udpgw.com
-- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 48 VMS"
   type: vmess
   server: cdn.noice.id
   port: 80
@@ -522,7 +514,7 @@ proxies:
     path: /v2ray
     headers:
       host: c5aagg.aioxyz.my.id
-- name: "\U0001F1FA\U0001F1F8 US 50 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
   type: vmess
   server: sogood.linefriends.com
   port: 443
@@ -536,6 +528,14 @@ proxies:
     path: /worryfree
     headers:
       host: v2ray3.udpgw.com
+- name: "\U0001F1FA\U0001F1F8 US 50 TJN"
+  type: trojan
+  server: 163.123.192.154
+  port: 443
+  udp: true
+  password: 997a9caa-5950-476f-8614-462fb2e0ed18
+  sni: download.xn--mes358a9urctx.com
+  skip-cert-verify: true
 - name: "\U0001F1E8\U0001F1F3 CN 51 VMS"
   type: vmess
   server: 112.132.215.189
@@ -575,7 +575,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F3 UN 55 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 55 VMS"
   type: vmess
   server: v2ray.online
   port: 443
@@ -653,59 +653,59 @@ proxy-groups:
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1FA\U0001F1F8 US 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  - "\U0001F1E8\U0001F1FE CY 9 VMS"
-  - "\U0001F1EE\U0001F1E9 ID 10 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 11 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 12 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 13 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
+  - "\U0001F1FB\U0001F1EC VG 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 7 VMS"
+  - "\U0001F1E8\U0001F1FE CY 8 VMS"
+  - "\U0001F1EE\U0001F1E9 ID 9 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 10 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 11 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 12 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 14 VMS"
   - "\U0001F1F3\U0001F1F1 NL 15 VMS"
   - "\U0001F1F3\U0001F1F1 NL 16 VMS"
-  - "\U0001F1F7\U0001F1F4 RO 17 VMS"
+  - "\U0001F1F8\U0001F1EC SG 17 TJN"
   - "\U0001F1F8\U0001F1EC SG 18 TJN"
-  - "\U0001F1F8\U0001F1EC SG 19 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 20 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 19 TJN"
+  - "\U0001F1F9\U0001F1FC TW 20 TJN"
   - "\U0001F1F9\U0001F1FC TW 21 TJN"
-  - "\U0001F1F9\U0001F1FC TW 22 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 22 TJN"
   - "\U0001F1ED\U0001F1F0 HK 23 TJN"
-  - "\U0001F1F9\U0001F1FC TW 24 TJN"
-  - "\U0001F1F9\U0001F1FC TW 25 VMS"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1F9\U0001F1FC TW 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 26 VMS"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1FA\U0001F1F8 US 28 VMS"
   - "\U0001F1FA\U0001F1F8 US 29 VMS"
   - "\U0001F1FA\U0001F1F8 US 30 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  - "\U0001F1FA\U0001F1F8 US 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 TJN"
-  - "\U0001F1FA\U0001F1F8 US 34 VMS"
-  - "\U0001F1FA\U0001F1F8 US 35 VMS"
+  - "\U0001F1FA\U0001F1F8 US 31 VMS"
+  - "\U0001F1FA\U0001F1F8 US 32 TJN"
+  - "\U0001F1FA\U0001F1F8 US 33 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 35 VMS"
   - "\U0001F1FA\U0001F1F3 UN 36 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  - "\U0001F1FA\U0001F1F8 US 37 VMS"
   - "\U0001F1FA\U0001F1F8 US 38 VMS"
-  - "\U0001F1FA\U0001F1F8 US 39 VMS"
-  - "\U0001F1FA\U0001F1F8 US 40 SSS"
-  - "\U0001F1FA\U0001F1F8 US 41 SSR"
-  - "\U0001F1FA\U0001F1F8 US 42 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  - "\U0001F1FA\U0001F1F8 US 39 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 SSR"
+  - "\U0001F1FA\U0001F1F8 US 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  - "\U0001F1FA\U0001F1F8 US 43 VMS"
   - "\U0001F1FA\U0001F1F8 US 44 VMS"
   - "\U0001F1FA\U0001F1F8 US 45 VMS"
-  - "\U0001F1FA\U0001F1F8 US 46 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 46 VMS"
   - "\U0001F1FA\U0001F1F3 UN 47 VMS"
   - "\U0001F1FA\U0001F1F3 UN 48 VMS"
   - "\U0001F1FA\U0001F1F3 UN 49 VMS"
-  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1FA\U0001F1F8 US 50 TJN"
   - "\U0001F1E8\U0001F1F3 CN 51 VMS"
   - "\U0001F1E8\U0001F1F3 CN 52 VMS"
   - "\U0001F1FA\U0001F1F8 US 53 TJN"
   - "\U0001F1FA\U0001F1F3 UN 54 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 55 VMS"
+  - "\U0001F1FA\U0001F1F8 US 55 VMS"
   - "\U0001F1FA\U0001F1F3 UN 56 VMS"
   - "\U0001F1FA\U0001F1F8 US 57 VMS"
   - "\U0001F1FA\U0001F1F8 US 58 VMS"
@@ -719,59 +719,59 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1FA\U0001F1F8 US 3 TJN"
-  - "\U0001F1FA\U0001F1F8 US 4 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  - "\U0001F1E8\U0001F1FE CY 9 VMS"
-  - "\U0001F1EE\U0001F1E9 ID 10 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 11 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 12 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 13 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 14 SSS"
+  - "\U0001F1FB\U0001F1EC VG 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 5 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 6 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 7 VMS"
+  - "\U0001F1E8\U0001F1FE CY 8 VMS"
+  - "\U0001F1EE\U0001F1E9 ID 9 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 10 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 11 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 12 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 13 SSS"
+  - "\U0001F1F3\U0001F1F1 NL 14 VMS"
   - "\U0001F1F3\U0001F1F1 NL 15 VMS"
   - "\U0001F1F3\U0001F1F1 NL 16 VMS"
-  - "\U0001F1F7\U0001F1F4 RO 17 VMS"
+  - "\U0001F1F8\U0001F1EC SG 17 TJN"
   - "\U0001F1F8\U0001F1EC SG 18 TJN"
-  - "\U0001F1F8\U0001F1EC SG 19 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 20 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 19 TJN"
+  - "\U0001F1F9\U0001F1FC TW 20 TJN"
   - "\U0001F1F9\U0001F1FC TW 21 TJN"
-  - "\U0001F1F9\U0001F1FC TW 22 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 22 TJN"
   - "\U0001F1ED\U0001F1F0 HK 23 TJN"
-  - "\U0001F1F9\U0001F1FC TW 24 TJN"
-  - "\U0001F1F9\U0001F1FC TW 25 VMS"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1F9\U0001F1FC TW 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 26 VMS"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1FA\U0001F1F8 US 28 VMS"
   - "\U0001F1FA\U0001F1F8 US 29 VMS"
   - "\U0001F1FA\U0001F1F8 US 30 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  - "\U0001F1FA\U0001F1F8 US 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 TJN"
-  - "\U0001F1FA\U0001F1F8 US 34 VMS"
-  - "\U0001F1FA\U0001F1F8 US 35 VMS"
+  - "\U0001F1FA\U0001F1F8 US 31 VMS"
+  - "\U0001F1FA\U0001F1F8 US 32 TJN"
+  - "\U0001F1FA\U0001F1F8 US 33 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 34 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 35 VMS"
   - "\U0001F1FA\U0001F1F3 UN 36 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
+  - "\U0001F1FA\U0001F1F8 US 37 VMS"
   - "\U0001F1FA\U0001F1F8 US 38 VMS"
-  - "\U0001F1FA\U0001F1F8 US 39 VMS"
-  - "\U0001F1FA\U0001F1F8 US 40 SSS"
-  - "\U0001F1FA\U0001F1F8 US 41 SSR"
-  - "\U0001F1FA\U0001F1F8 US 42 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  - "\U0001F1FA\U0001F1F8 US 39 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 SSR"
+  - "\U0001F1FA\U0001F1F8 US 41 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  - "\U0001F1FA\U0001F1F8 US 43 VMS"
   - "\U0001F1FA\U0001F1F8 US 44 VMS"
   - "\U0001F1FA\U0001F1F8 US 45 VMS"
-  - "\U0001F1FA\U0001F1F8 US 46 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 46 VMS"
   - "\U0001F1FA\U0001F1F3 UN 47 VMS"
   - "\U0001F1FA\U0001F1F3 UN 48 VMS"
   - "\U0001F1FA\U0001F1F3 UN 49 VMS"
-  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1FA\U0001F1F8 US 50 TJN"
   - "\U0001F1E8\U0001F1F3 CN 51 VMS"
   - "\U0001F1E8\U0001F1F3 CN 52 VMS"
   - "\U0001F1FA\U0001F1F8 US 53 TJN"
   - "\U0001F1FA\U0001F1F3 UN 54 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 55 VMS"
+  - "\U0001F1FA\U0001F1F8 US 55 VMS"
   - "\U0001F1FA\U0001F1F3 UN 56 VMS"
   - "\U0001F1FA\U0001F1F8 US 57 VMS"
   - "\U0001F1FA\U0001F1F8 US 58 VMS"
