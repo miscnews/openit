@@ -15,7 +15,7 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F7\U0001F1FA RU 3 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
   type: vmess
   server: la.weizai2023.uk.eu.org
   port: 80
@@ -30,7 +30,7 @@ proxies:
     path: /shirker
     headers:
       host: ca.ilovescp.com
-- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
+- name: "\U0001F1E6\U0001F1FA AU 4 VMS"
   type: vmess
   server: wz.weishao2023.uk.eu.org
   port: 443
@@ -45,7 +45,7 @@ proxies:
     path: /mioooo?ed=2048
     headers:
       host: vceu1.unioreo.rip
-- name: "\U0001F1F7\U0001F1FA RU 5 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 5 VMS"
   type: vmess
   server: la.weizai2023.uk.eu.org
   port: 80
@@ -60,7 +60,7 @@ proxies:
     path: /shirker
     headers:
       host: do.sharecentrepro.com
-- name: "\U0001F1F7\U0001F1FA RU 6 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
   type: vmess
   server: la.weizai2023.uk.eu.org
   port: 80
@@ -196,16 +196,158 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 16 VMS"
+  type: vmess
+  server: 104.26.5.98
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  type: vmess
+  server: 162.159.138.137
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F8 US 18 VMS"
+  type: vmess
+  server: 172.67.71.91
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  type: vmess
+  server: 162.159.133.148
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F8 US 20 VMS"
+  type: vmess
+  server: 104.26.12.21
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  type: vmess
+  server: 162.159.152.57
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F8 US 22 VMS"
+  type: vmess
+  server: 172.64.229.244
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F3 UN 23 VMS"
+  type: vmess
+  server: 162.159.138.143
+  port: 443
+  cipher: auto
+  uuid: b6eb9cb4-5e34-420d-cbd1-5de198b3e373
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: vs2.anglesccs.top
+- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
+  type: vmess
+  server: vs2.anglesccs.top
+  port: 56304
+  cipher: auto
+  uuid: 30e69e67-491c-4b46-aa30-60b75325e9db
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 25 VMS"
+  type: vmess
+  server: 152.70.129.219
+  port: 8080
+  cipher: auto
+  uuid: c62ae997-5de7-4eea-86d8-4f4b24fb6398
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: kcp
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1F7\U0001F1FA RU 3 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
-  - "\U0001F1F7\U0001F1FA RU 5 VMS"
-  - "\U0001F1F7\U0001F1FA RU 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1E6\U0001F1FA AU 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F3 UN 9 VMS"
@@ -215,6 +357,16 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
   - "\U0001F1EF\U0001F1F5 JP 14 SSS"
   - "\U0001F1F8\U0001F1EA SE 15 VMS"
+  - "\U0001F1FA\U0001F1F8 US 16 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 22 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 23 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -223,10 +375,10 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1F7\U0001F1FA RU 3 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
-  - "\U0001F1F7\U0001F1FA RU 5 VMS"
-  - "\U0001F1F7\U0001F1FA RU 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 3 VMS"
+  - "\U0001F1E6\U0001F1FA AU 4 VMS"
+  - "\U0001F1FA\U0001F1F8 US 5 VMS"
+  - "\U0001F1FA\U0001F1F8 US 6 VMS"
   - "\U0001F1FA\U0001F1F8 US 7 VMS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F3 UN 9 VMS"
@@ -236,5 +388,15 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
   - "\U0001F1EF\U0001F1F5 JP 14 SSS"
   - "\U0001F1F8\U0001F1EA SE 15 VMS"
+  - "\U0001F1FA\U0001F1F8 US 16 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 19 VMS"
+  - "\U0001F1FA\U0001F1F8 US 20 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 22 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 23 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 25 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
