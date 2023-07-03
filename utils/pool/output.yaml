@@ -345,7 +345,7 @@ proxies:
   port: 17768
   password: ddb3eb62-8b9a-4a98-91f1-2554a842d351
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1FA\U0001F1F3 UN 39 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 39 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -763,7 +763,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 86 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 86 VMS"
   type: vmess
   server: cf.yxjnode.com
   port: 80
@@ -789,7 +789,13 @@ proxies:
   port: 736
   password: BoomCloud2020
   cipher: rc4-md5
-- name: "\U0001F1FA\U0001F1F8 US 89 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 89 SSS"
+  type: ss
+  server: video.tiktokuu.xyz
+  port: 694
+  password: BoomCloud2020
+  cipher: rc4-md5
+- name: "\U0001F1FA\U0001F1F8 US 90 VMS"
   type: vmess
   server: 108.186.116.183
   port: 55005
@@ -799,7 +805,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 90 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 91 VMS"
   type: vmess
   server: cf5.vpn66.eu.org
   port: 8080
@@ -813,7 +819,7 @@ proxies:
     path: /
     headers:
       host: vcus.vpn66.eu.org
-- name: "\U0001F1FA\U0001F1F8 US 91 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 92 VMS"
   type: vmess
   server: 156.225.67.79
   port: 40023
@@ -823,25 +829,25 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 92 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 93 SSS"
   type: ss
   server: video.tiktokuu.xyz
   port: 722
   password: BoomCloud2020
   cipher: rc4-md5
-- name: "\U0001F1E8\U0001F1F3 CN 93 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 94 SSS"
   type: ss
   server: zjydhnuidqwdp.fucat.top
   port: 35199
   password: 8f2ed1a9-0986-48a1-841e-13655eb2504e
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 94 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 95 SSS"
   type: ss
   server: video.tiktokuu.xyz
   port: 754
   password: BoomCloud2020
   cipher: rc4-md5
-- name: "\U0001F1E8\U0001F1F3 CN 95 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 96 VMS"
   type: vmess
   server: 221.131.165.180
   port: 16790
@@ -853,7 +859,7 @@ proxies:
   network: ws
   ws-opts:
     path: /soda
-- name: "\U0001F1FA\U0001F1F8 US 96 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 97 VMS"
   type: vmess
   server: 142.4.126.45
   port: 44392
@@ -863,7 +869,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 97 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 98 VMS"
   type: vmess
   server: 171.22.134.8
   port: 53433
@@ -873,12 +879,6 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  type: ss
-  server: video.tiktokuu.xyz
-  port: 694
-  password: BoomCloud2020
-  cipher: rc4-md5
 proxy-groups:
 - name: automatic
   type: url-test
@@ -921,7 +921,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 36 VMS"
   - "\U0001F1ED\U0001F1F0 HK 37 VMS"
   - "\U0001F1E8\U0001F1F3 CN 38 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 39 VMS"
   - "\U0001F1FB\U0001F1F3 VN 40 TJN"
   - "\U0001F1E8\U0001F1F3 CN 41 SSS"
   - "\U0001F1EF\U0001F1F5 JP 42 TJN"
@@ -968,19 +968,19 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 83 SSS"
   - "\U0001F1FA\U0001F1F8 US 84 VMS"
   - "\U0001F1FA\U0001F1F8 US 85 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 86 VMS"
+  - "\U0001F1FA\U0001F1F8 US 86 VMS"
   - "\U0001F1E8\U0001F1F3 CN 87 SSS"
   - "\U0001F1E8\U0001F1F3 CN 88 SSS"
-  - "\U0001F1FA\U0001F1F8 US 89 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 90 VMS"
-  - "\U0001F1FA\U0001F1F8 US 91 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 92 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 89 SSS"
+  - "\U0001F1FA\U0001F1F8 US 90 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 91 VMS"
+  - "\U0001F1FA\U0001F1F8 US 92 VMS"
   - "\U0001F1E8\U0001F1F3 CN 93 SSS"
   - "\U0001F1E8\U0001F1F3 CN 94 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 95 VMS"
-  - "\U0001F1FA\U0001F1F8 US 96 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 95 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 96 VMS"
   - "\U0001F1FA\U0001F1F8 US 97 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 98 SSS"
+  - "\U0001F1FA\U0001F1F8 US 98 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -1025,7 +1025,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 36 VMS"
   - "\U0001F1ED\U0001F1F0 HK 37 VMS"
   - "\U0001F1E8\U0001F1F3 CN 38 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 39 VMS"
   - "\U0001F1FB\U0001F1F3 VN 40 TJN"
   - "\U0001F1E8\U0001F1F3 CN 41 SSS"
   - "\U0001F1EF\U0001F1F5 JP 42 TJN"
@@ -1072,18 +1072,18 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 83 SSS"
   - "\U0001F1FA\U0001F1F8 US 84 VMS"
   - "\U0001F1FA\U0001F1F8 US 85 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 86 VMS"
+  - "\U0001F1FA\U0001F1F8 US 86 VMS"
   - "\U0001F1E8\U0001F1F3 CN 87 SSS"
   - "\U0001F1E8\U0001F1F3 CN 88 SSS"
-  - "\U0001F1FA\U0001F1F8 US 89 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 90 VMS"
-  - "\U0001F1FA\U0001F1F8 US 91 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 92 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 89 SSS"
+  - "\U0001F1FA\U0001F1F8 US 90 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 91 VMS"
+  - "\U0001F1FA\U0001F1F8 US 92 VMS"
   - "\U0001F1E8\U0001F1F3 CN 93 SSS"
   - "\U0001F1E8\U0001F1F3 CN 94 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 95 VMS"
-  - "\U0001F1FA\U0001F1F8 US 96 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 95 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 96 VMS"
   - "\U0001F1FA\U0001F1F8 US 97 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 98 SSS"
+  - "\U0001F1FA\U0001F1F8 US 98 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
