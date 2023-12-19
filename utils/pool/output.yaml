@@ -81,7 +81,7 @@ proxies:
     path: /
     headers:
       host: cm1.awslcn.info
-- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 8 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -202,7 +202,7 @@ proxies:
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 21 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 21 TJN"
   type: trojan
   server: ru01.trojanyyds.xyz
   port: 443
@@ -236,7 +236,7 @@ proxies:
     path: /
     headers:
       host: sbl2.shabijichang.com
-- name: "\U0001F1ED\U0001F1F0 HK 24 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 24 TJN"
   type: trojan
   server: us01.trojanyyds.xyz
   port: 443
@@ -270,36 +270,7 @@ proxies:
     path: /
     headers:
       host: cu.awslcn.info
-- name: "\U0001F1E8\U0001F1F3 CN 27 SSR"
-  type: ssr
-  server: cm01.newcome.xyz
-  port: 7703
-  password: jFa4F1
-  cipher: chacha20-ietf
-  obfs: plain
-  protocol: auth_aes128_sha1
-  obfs-param: 511df45641.microsoft.com
-  protocol-param: 45641:1119_jE165t
-  group: "Update-\u4E8C\u7237"
-- name: "\U0001F1FA\U0001F1F8 US 28 SSS"
-  type: ss
-  server: 52.33.95.19
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 29 SSS"
-  type: ss
-  server: 35.90.10.174
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 30 SSS"
-  type: ss
-  server: 94.131.115.129
-  port: 38108
-  password: bNUe0jR9rzsvLEzfPmI4Of
-  cipher: chacha20-ietf-poly1305
-- name: "\U0001F1FA\U0001F1F3 UN 31 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
   type: vmess
   server: 162.159.192.244
   port: 443
@@ -313,7 +284,7 @@ proxies:
     path: /673ba378-840f-4928-81f2-203148d07350
     headers:
       host: cowochtmtrkers.turbo021.link
-- name: "\U0001F1EC\U0001F1E7 GB 32 VMS"
+- name: "\U0001F1EC\U0001F1E7 GB 28 VMS"
   type: vmess
   server: 172.99.190.109
   port: 443
@@ -323,7 +294,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1E8\U0001F1F3 CN 33 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 29 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7706
@@ -334,12 +305,41 @@ proxies:
   obfs-param: 511df45641.microsoft.com
   protocol-param: 45641:1119_jE165t
   group: "Update-\u4E8C\u7237"
-- name: "\U0001F1FA\U0001F1F8 US 34 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 30 SSS"
   type: ss
   server: 35.90.10.174
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  type: ssr
+  server: cm01.newcome.xyz
+  port: 7703
+  password: jFa4F1
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: 511df45641.microsoft.com
+  protocol-param: 45641:1119_jE165t
+  group: "Update-\u4E8C\u7237"
+- name: "\U0001F1FA\U0001F1F8 US 32 SSS"
+  type: ss
+  server: 52.33.95.19
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 33 SSS"
+  type: ss
+  server: 35.90.10.174
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 34 SSS"
+  type: ss
+  server: 94.131.115.129
+  port: 38108
+  password: bNUe0jR9rzsvLEzfPmI4Of
+  cipher: chacha20-ietf-poly1305
 proxy-groups:
 - name: automatic
   type: url-test
@@ -351,7 +351,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
   - "\U0001F1E8\U0001F1F3 CN 6 VMS"
   - "\U0001F1E8\U0001F1F3 CN 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1E8\U0001F1F3 CN 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 SSS"
   - "\U0001F1FA\U0001F1F8 US 11 SSS"
@@ -364,19 +364,19 @@ proxy-groups:
   - "\U0001F1EC\U0001F1EE GI 18 TJN"
   - "\U0001F1FA\U0001F1E6 UA 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 SSS"
-  - "\U0001F1FA\U0001F1F8 US 21 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 21 TJN"
   - "\U0001F1E8\U0001F1F3 CN 22 SSR"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 24 TJN"
+  - "\U0001F1FA\U0001F1F8 US 24 TJN"
   - "\U0001F1E8\U0001F1F3 CN 25 SSR"
   - "\U0001F1E8\U0001F1F3 CN 26 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 27 SSR"
-  - "\U0001F1FA\U0001F1F8 US 28 SSS"
-  - "\U0001F1FA\U0001F1F8 US 29 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 28 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 29 SSR"
   - "\U0001F1FA\U0001F1F8 US 30 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 32 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1FA\U0001F1F8 US 32 SSS"
+  - "\U0001F1FA\U0001F1F8 US 33 SSS"
   - "\U0001F1FA\U0001F1F8 US 34 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
@@ -391,7 +391,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 5 VMS"
   - "\U0001F1E8\U0001F1F3 CN 6 VMS"
   - "\U0001F1E8\U0001F1F3 CN 7 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1E8\U0001F1F3 CN 9 VMS"
   - "\U0001F1FA\U0001F1F8 US 10 SSS"
   - "\U0001F1FA\U0001F1F8 US 11 SSS"
@@ -404,19 +404,19 @@ proxy-groups:
   - "\U0001F1EC\U0001F1EE GI 18 TJN"
   - "\U0001F1FA\U0001F1E6 UA 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 SSS"
-  - "\U0001F1FA\U0001F1F8 US 21 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 21 TJN"
   - "\U0001F1E8\U0001F1F3 CN 22 SSR"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 24 TJN"
+  - "\U0001F1FA\U0001F1F8 US 24 TJN"
   - "\U0001F1E8\U0001F1F3 CN 25 SSR"
   - "\U0001F1E8\U0001F1F3 CN 26 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 27 SSR"
-  - "\U0001F1FA\U0001F1F8 US 28 SSS"
-  - "\U0001F1FA\U0001F1F8 US 29 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 28 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 29 SSR"
   - "\U0001F1FA\U0001F1F8 US 30 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 32 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 33 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1FA\U0001F1F8 US 32 SSS"
+  - "\U0001F1FA\U0001F1F8 US 33 SSS"
   - "\U0001F1FA\U0001F1F8 US 34 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
