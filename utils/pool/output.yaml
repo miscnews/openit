@@ -24,16 +24,6 @@ proxies:
 - name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
   type: vmess
   server: 34.92.50.99
-  port: 31535
-  cipher: auto
-  uuid: f23d62d4-f8da-4347-8cee-762804ecf677
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: kcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  type: vmess
-  server: 34.92.50.99
   port: 64563
   cipher: auto
   uuid: 0eda82b0-d613-49e2-ac22-8ceafb0ec914
@@ -41,6 +31,16 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  type: vmess
+  server: 34.92.50.99
+  port: 31535
+  cipher: auto
+  uuid: f23d62d4-f8da-4347-8cee-762804ecf677
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: kcp
 - name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
   type: vmess
   server: 34.92.50.99
@@ -261,7 +261,7 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 24 VMS"
   type: vmess
   server: a8.bcbot.in
   port: 8880
@@ -447,7 +447,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1EA\U0001F1F8 ES 23 SSS"
-  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
   - "\U0001F1E7\U0001F1E6 BA 25 SSS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1E6 SA 27 SSS"
@@ -490,7 +490,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1EA\U0001F1F8 ES 23 SSS"
-  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
   - "\U0001F1E7\U0001F1E6 BA 25 SSS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1E6 SA 27 SSS"
