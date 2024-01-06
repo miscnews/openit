@@ -15,17 +15,529 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 3 VMS"
-  type: vmess
-  server: 34.92.50.99
-  port: 26389
-  cipher: auto
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 3 SSS"
+  type: ss
+  server: 874b20d.b1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.it:48331
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  type: ss
+  server: 874b20d.b2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.jp:48331
+- name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  type: ss
+  server: 874b20d.b3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.cl:48331
+- name: "\U0001F1EF\U0001F1F5 JP 6 SSS"
+  type: ss
+  server: 874b20d.b4.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ch:48331
+- name: "\U0001F1F9\U0001F1FC TW 7 SSS"
+  type: ss
+  server: 874b20d.b5.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.it:48331
+- name: "\U0001F1EF\U0001F1F5 JP 8 SSS"
+  type: ss
+  server: 874b20d.b6.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.cz:48331
+- name: "\U0001F1EF\U0001F1F5 JP 9 SSS"
+  type: ss
+  server: 874b20d.b7.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.is:48331
+- name: "\U0001F1EF\U0001F1F5 JP 10 SSS"
+  type: ss
+  server: 874b20d.b8.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.eu:48331
+- name: "\U0001F1F9\U0001F1FC TW 11 SSS"
+  type: ss
+  server: 874b20d.b9.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.hu:48331
+- name: "\U0001F1FA\U0001F1F8 US 12 SSS"
+  type: ss
+  server: 874b20d.u1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.xboxlive.com:48331
+- name: "\U0001F1FA\U0001F1F8 US 13 SSS"
+  type: ss
+  server: 874b20d.u2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.lv:48331
+- name: "\U0001F1FA\U0001F1F8 US 14 SSS"
+  type: ss
+  server: 874b20d.u3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.jp:48331
+- name: "\U0001F1FA\U0001F1F8 US 15 SSS"
+  type: ss
+  server: 874b20d.u4.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.cl:48331
+- name: "\U0001F1FA\U0001F1F8 US 16 SSS"
+  type: ss
+  server: 874b20d.u5.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.fi:48331
+- name: "\U0001F1FA\U0001F1F8 US 17 SSS"
+  type: ss
+  server: 874b20d.u6.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.fi:48331
+- name: "\U0001F1EF\U0001F1F5 JP 18 SSS"
+  type: ss
+  server: 874b20d.j1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.epicgames.com:48331
+- name: "\U0001F1EF\U0001F1F5 JP 19 SSS"
+  type: ss
+  server: 874b20d.j2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.es:48331
+- name: "\U0001F1EF\U0001F1F5 JP 20 SSS"
+  type: ss
+  server: 874b20d.j3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.md:48331
+- name: "\U0001F1F9\U0001F1FC TW 21 SSS"
+  type: ss
+  server: 874b20d.t1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.md:48331
+- name: "\U0001F1F9\U0001F1FC TW 22 SSS"
+  type: ss
+  server: 874b20d.t2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.com:48331
+- name: "\U0001F1F9\U0001F1FC TW 23 SSS"
+  type: ss
+  server: 874b20d.t3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.hu:48331
+- name: "\U0001F1F9\U0001F1FC TW 24 SSS"
+  type: ss
+  server: 874b20d.t4.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ee:48331
+- name: "\U0001F1F9\U0001F1FC TW 25 SSS"
+  type: ss
+  server: 874b20d.t5.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.lu:48331
+- name: "\U0001F1F9\U0001F1FC TW 26 SSS"
+  type: ss
+  server: 874b20d.t6.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.md:48331
+- name: "\U0001F1F8\U0001F1EC SG 27 SSS"
+  type: ss
+  server: 874b20d.s1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.io:48331
+- name: "\U0001F1F8\U0001F1EC SG 28 SSS"
+  type: ss
+  server: 874b20d.s2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.fi:48331
+- name: "\U0001F1F8\U0001F1EC SG 29 SSS"
+  type: ss
+  server: 874b20d.s3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.fi:48331
+- name: "\U0001F1ED\U0001F1F0 HK 30 SSS"
+  type: ss
+  server: 874b20d.h1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.eu:48331
+- name: "\U0001F1ED\U0001F1F0 HK 31 SSS"
+  type: ss
+  server: 874b20d.h2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.lv:48331
+- name: "\U0001F1ED\U0001F1F0 HK 32 SSS"
+  type: ss
+  server: 874b20d.h3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.net:48331
+- name: "\U0001F1EC\U0001F1E7 GB 33 SSS"
+  type: ss
+  server: 874b20d.e1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.cat:48331
+- name: "\U0001F1EC\U0001F1E7 GB 34 SSS"
+  type: ss
+  server: 874b20d.e2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ee:48331
+- name: "\U0001F1EC\U0001F1E7 GB 35 SSS"
+  type: ss
+  server: 874b20d.e3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.fi:48331
+- name: "\U0001F1F8\U0001F1EC SG 36 SSS"
+  type: ss
+  server: 874b20d.da.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.com:48331
+- name: "\U0001F1F8\U0001F1EC SG 37 SSS"
+  type: ss
+  server: 874b20d.db.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ge:48331
+- name: "\U0001F1F8\U0001F1EC SG 38 SSS"
+  type: ss
+  server: 874b20d.dc.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ch:48331
+- name: "\U0001F1E8\U0001F1F3 CN 39 SSS"
+  type: ss
+  server: 874b20d.f1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.io.net:48331
+- name: "\U0001F1E8\U0001F1F3 CN 40 SSS"
+  type: ss
+  server: 874b20d.f2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.eu.net:48331
+- name: "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  type: ss
+  server: 874b20d.f3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.mozilla.net.net:48331
+- name: "\U0001F1FA\U0001F1F8 US 42 SSS"
+  type: ss
+  server: 874b20d.d1.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.de.net:48331
+- name: "\U0001F1FA\U0001F1F8 US 43 SSS"
+  type: ss
+  server: 874b20d.d2.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.net.net:48331
+- name: "\U0001F1FA\U0001F1F8 US 44 SSS"
+  type: ss
+  server: 874b20d.d3.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ge.net:48331
+- name: "\U0001F1FA\U0001F1F8 US 45 SSS"
+  type: ss
+  server: 874b20d.d4.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.md.net:48331
+- name: "\U0001F1FA\U0001F1F8 US 46 SSS"
+  type: ss
+  server: 874b20d.d5.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.nintendo.jp.net:48331
+- name: "\U0001F1FA\U0001F1F8 US 47 SSS"
+  type: ss
+  server: 874b20d.d6.gladns.com
+  port: 2377
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: 874b20d.dl.microsoft.ee.net:48331
+- name: "\U0001F1FA\U0001F1F3 UN 48 SSS"
+  type: ss
+  server: 874b20d.qa.glados-config.com
+  port: 8880
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: endpoint.moss.network
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    mux: true
+- name: "\U0001F1FA\U0001F1F3 UN 49 SSS"
+  type: ss
+  server: 874b20d.qb.glados-config.com
+  port: 8880
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: endpoint.moss.network
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    mux: true
+- name: "\U0001F1FA\U0001F1F3 UN 50 SSS"
+  type: ss
+  server: 874b20d.qc.glados-config.com
+  port: 8880
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: endpoint.moss.network
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    mux: true
+- name: "\U0001F1FA\U0001F1F8 US 51 SSS"
+  type: ss
+  server: 874b20d.qd.glados-config.com
+  port: 8880
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: intrepid.moss.network
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    mux: true
+- name: "\U0001F1FA\U0001F1F3 UN 52 SSS"
+  type: ss
+  server: 874b20d.qe.glados-config.com
+  port: 8880
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: intrepid.moss.network
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    mux: true
+- name: "\U0001F1FA\U0001F1F3 UN 53 SSS"
+  type: ss
+  server: 874b20d.qf.glados-config.com
+  port: 8880
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  cipher: chacha20-ietf-poly1305
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket
+    host: intrepid.moss.network
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    mux: true
+- name: "\U0001F1ED\U0001F1F0 HK 54 VMS"
   type: vmess
   server: 34.92.50.99
   port: 31535
@@ -35,7 +547,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: kcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 55 VMS"
   type: vmess
   server: 34.92.50.99
   port: 64563
@@ -45,7 +557,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 6 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 56 VMS"
+  type: vmess
+  server: 34.92.50.99
+  port: 26389
+  cipher: auto
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 57 VMS"
   type: vmess
   server: 162.159.142.202
   port: 80
@@ -59,13 +581,13 @@ proxies:
     path: /
     headers:
       host: er3.889611.com
-- name: "\U0001F1E8\U0001F1F3 CN 7 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 58 SSS"
   type: ss
   server: 45.87.153.246
   port: 6199
   password: f7EI0dGWQM42T8gwN9CZIj
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 59 VMS"
   type: vmess
   server: 162.159.200.7
   port: 80
@@ -79,7 +601,7 @@ proxies:
     path: /
     headers:
       host: er3.visaapp.top
-- name: "\U0001F1FA\U0001F1F8 US 9 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 60 VMS"
   type: vmess
   server: 144.202.84.47
   port: 57848
@@ -89,7 +611,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F8\U0001F1EA SE 10 VMS"
+- name: "\U0001F1F8\U0001F1EA SE 61 VMS"
   type: vmess
   server: www.shopify.com
   port: 2082
@@ -103,7 +625,7 @@ proxies:
     path: /
     headers:
       host: els_cdnone.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 11 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 62 VMS"
   type: vmess
   server: 104.18.154.42
   port: 80
@@ -117,7 +639,7 @@ proxies:
     path: /
     headers:
       host: Quran14.eSmAIlkORea.sHop
-- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 63 VMS"
   type: vmess
   server: 104.17.184.241
   port: 80
@@ -131,7 +653,7 @@ proxies:
     path: /
     headers:
       host: mg_cdn.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 13 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 64 VMS"
   type: vmess
   server: whatismyipaddress.com
   port: 2082
@@ -145,7 +667,7 @@ proxies:
     path: /
     headers:
       host: mgtow_cdn.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 14 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 65 VMS"
   type: vmess
   server: a4.bcbot.in
   port: 8880
@@ -159,13 +681,13 @@ proxies:
     path: /
     headers:
       host: a4.bcbot.in
-- name: "\U0001F1EB\U0001F1F7 FR 15 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 66 SSS"
   type: ss
   server: 195.154.185.174
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F3 UN 16 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 67 VMS"
   type: vmess
   server: a5.bcbot.in
   port: 8880
@@ -179,7 +701,7 @@ proxies:
     path: /
     headers:
       host: a5.bcbot.in
-- name: "\U0001F1FA\U0001F1F3 UN 17 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 68 VMS"
   type: vmess
   server: 2bbiozh7wbc.servecounterstrike.com
   port: 2083
@@ -193,7 +715,7 @@ proxies:
     path: /snsk
     headers:
       host: PAneljadid.mookoMEilz.homes
-- name: "\U0001F1FA\U0001F1F3 UN 18 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 69 VMS"
   type: vmess
   server: 162.159.142.204
   port: 80
@@ -207,7 +729,7 @@ proxies:
     path: /
     headers:
       host: us3.889611.com
-- name: "\U0001F1EF\U0001F1F5 JP 19 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 70 VMS"
   type: vmess
   server: 47.245.2.84
   port: 2082
@@ -221,7 +743,7 @@ proxies:
     path: /
     headers:
       host: els_cdnone.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 20 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 71 VMS"
   type: vmess
   server: www.glassdoor.com
   port: 2082
@@ -235,7 +757,7 @@ proxies:
     path: /
     headers:
       host: els_cdnone.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 72 VMS"
   type: vmess
   server: 104.19.154.92
   port: 2083
@@ -249,13 +771,13 @@ proxies:
     path: /snsk
     headers:
       host: PAneljadid.mookoMEilz.homes
-- name: "\U0001F1EA\U0001F1F8 ES 22 SSS"
+- name: "\U0001F1EA\U0001F1F8 ES 73 SSS"
   type: ss
   server: 92.38.171.89
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 23 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 74 VMS"
   type: vmess
   server: a8.bcbot.in
   port: 8880
@@ -269,13 +791,13 @@ proxies:
     path: /
     headers:
       host: a8.bcbot.in
-- name: "\U0001F1E7\U0001F1E6 BA 24 SSS"
+- name: "\U0001F1E7\U0001F1E6 BA 75 SSS"
   type: ss
   server: 185.164.35.9
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 25 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 76 VMS"
   type: vmess
   server: 45.58.153.24
   port: 30000
@@ -289,13 +811,13 @@ proxies:
     path: /path/1702392255355
     headers:
       host: www.77935707.xyz
-- name: "\U0001F1F8\U0001F1E6 SA 26 SSS"
+- name: "\U0001F1F8\U0001F1E6 SA 77 SSS"
   type: ss
   server: 217.182.198.219
   port: 3389
   password: Y6R9pAtvxxzmGC
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 78 VMS"
   type: vmess
   server: 162.159.200.6
   port: 80
@@ -309,7 +831,7 @@ proxies:
     path: /
     headers:
       host: er3.889611.com
-- name: "\U0001F1FA\U0001F1F8 US 28 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 79 TJN"
   type: trojan
   server: 15.204.9.172
   port: 443
@@ -318,7 +840,7 @@ proxies:
   sni: www.yahoo.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1F7\U0001F1FA RU 29 VMS"
+- name: "\U0001F1F7\U0001F1FA RU 80 VMS"
   type: vmess
   server: 45.144.2.113
   port: 80
@@ -332,7 +854,7 @@ proxies:
     path: /
     headers:
       host: www.apple.com
-- name: "\U0001F1FA\U0001F1F3 UN 30 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 81 VMS"
   type: vmess
   server: 104.17.171.34
   port: 80
@@ -346,7 +868,7 @@ proxies:
     path: /
     headers:
       host: ccs.hostmjj.com
-- name: "\U0001F1FA\U0001F1F3 UN 31 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 82 VMS"
   type: vmess
   server: whatismyipaddress.com
   port: 2052
@@ -360,7 +882,7 @@ proxies:
     path: /
     headers:
       host: mgtow_cdn.yunjisuan.cf
-- name: "\U0001F1FA\U0001F1F3 UN 32 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 83 VMS"
   type: vmess
   server: cf-lt.sharecentre.online
   port: 80
@@ -374,7 +896,7 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       host: ssrsub.v03.ssrsub.com
-- name: "\U0001F1FA\U0001F1F8 US 33 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 84 VMS"
   type: vmess
   server: web.parspack.com
   port: 80
@@ -388,19 +910,19 @@ proxies:
     path: /
     headers:
       host: zUlA9.eSmAIlkORea.sHop
-- name: "\U0001F1F8\U0001F1EA SE 34 SSS"
+- name: "\U0001F1F8\U0001F1EA SE 85 SSS"
   type: ss
   server: 45.8.147.80
   port: 5741
   password: Q5CEiebSuSl2qFkfE4ztG2
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1EC\U0001F1E7 GB 35 SSS"
+- name: "\U0001F1EC\U0001F1E7 GB 86 SSS"
   type: ss
   server: 77.72.5.150
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F3 UN 36 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 87 VMS"
   type: vmess
   server: a6.bcbot.in
   port: 8880
@@ -414,13 +936,13 @@ proxies:
     path: /
     headers:
       host: a6.bcbot.in
-- name: "\U0001F1E8\U0001F1E6 CA 37 SSS"
+- name: "\U0001F1E8\U0001F1E6 CA 88 SSS"
   type: ss
   server: 198.57.27.218
   port: 5004
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 38 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 89 VMS"
   type: vmess
   server: 154.23.190.162
   port: 443
@@ -430,7 +952,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1FA\U0001F1F8 US 39 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 90 VMS"
   type: vmess
   server: 154.23.190.162
   port: 443
@@ -440,558 +962,36 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-- name: "\U0001F1E8\U0001F1E6 CA 40 TJN"
+- name: "\U0001F1E8\U0001F1E6 CA 91 TJN"
   type: trojan
   server: ca-trojan.bonds.id
   port: 443
   udp: true
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 41 HTT"
+- name: "\U0001F1E8\U0001F1F3 CN 92 HTT"
   type: http
   server: 124.15.12.24
   port: 251
   username: username
   password: password
-- name: "\U0001F1E8\U0001F1F3 CN 42 SK5"
+- name: "\U0001F1E8\U0001F1F3 CN 93 SK5"
   type: socks5
   server: 124.15.12.24
   port: 2312
-- name: "\U0001F1E6\U0001F1FA AU 43 SK5"
+- name: "\U0001F1E6\U0001F1FA AU 94 SK5"
   type: socks5
   server: 1.2.3.4
   port: 123
   username: username
   password: password
-- name: "\U0001F1ED\U0001F1F0 HK 44 SSS"
+- name: "\U0001F1ED\U0001F1F0 HK 95 SSS"
   type: ss
   server: 34.92.50.99
   port: 52350
   password: 233blog.com
   cipher: aes-256-gcm
-- name: "\U0001F1EF\U0001F1F5 JP 45 SSS"
-  type: ss
-  server: 874b20d.b1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.it:48331
-- name: "\U0001F1EF\U0001F1F5 JP 46 SSS"
-  type: ss
-  server: 874b20d.b2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.jp:48331
-- name: "\U0001F1E8\U0001F1F3 CN 47 SSS"
-  type: ss
-  server: 874b20d.b3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.cl:48331
-- name: "\U0001F1F9\U0001F1FC TW 48 SSS"
-  type: ss
-  server: 874b20d.b4.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ch:48331
-- name: "\U0001F1ED\U0001F1F0 HK 49 SSS"
-  type: ss
-  server: 874b20d.b5.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.it:48331
-- name: "\U0001F1EF\U0001F1F5 JP 50 SSS"
-  type: ss
-  server: 874b20d.b6.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.cz:48331
-- name: "\U0001F1EF\U0001F1F5 JP 51 SSS"
-  type: ss
-  server: 874b20d.b7.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.is:48331
-- name: "\U0001F1EF\U0001F1F5 JP 52 SSS"
-  type: ss
-  server: 874b20d.b8.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.eu:48331
-- name: "\U0001F1E8\U0001F1F3 CN 53 SSS"
-  type: ss
-  server: 874b20d.b9.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.hu:48331
-- name: "\U0001F1FA\U0001F1F8 US 54 SSS"
-  type: ss
-  server: 874b20d.u1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.xboxlive.com:48331
-- name: "\U0001F1FA\U0001F1F8 US 55 SSS"
-  type: ss
-  server: 874b20d.u2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.lv:48331
-- name: "\U0001F1FA\U0001F1F8 US 56 SSS"
-  type: ss
-  server: 874b20d.u3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.jp:48331
-- name: "\U0001F1FA\U0001F1F8 US 57 SSS"
-  type: ss
-  server: 874b20d.u4.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.cl:48331
-- name: "\U0001F1FA\U0001F1F8 US 58 SSS"
-  type: ss
-  server: 874b20d.u5.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.fi:48331
-- name: "\U0001F1FA\U0001F1F8 US 59 SSS"
-  type: ss
-  server: 874b20d.u6.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.fi:48331
-- name: "\U0001F1EF\U0001F1F5 JP 60 SSS"
-  type: ss
-  server: 874b20d.j1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.epicgames.com:48331
-- name: "\U0001F1EF\U0001F1F5 JP 61 SSS"
-  type: ss
-  server: 874b20d.j2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.es:48331
-- name: "\U0001F1EF\U0001F1F5 JP 62 SSS"
-  type: ss
-  server: 874b20d.j3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.md:48331
-- name: "\U0001F1F9\U0001F1FC TW 63 SSS"
-  type: ss
-  server: 874b20d.t1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.md:48331
-- name: "\U0001F1F9\U0001F1FC TW 64 SSS"
-  type: ss
-  server: 874b20d.t2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.com:48331
-- name: "\U0001F1F9\U0001F1FC TW 65 SSS"
-  type: ss
-  server: 874b20d.t3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.hu:48331
-- name: "\U0001F1F9\U0001F1FC TW 66 SSS"
-  type: ss
-  server: 874b20d.t4.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ee:48331
-- name: "\U0001F1F9\U0001F1FC TW 67 SSS"
-  type: ss
-  server: 874b20d.t5.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.lu:48331
-- name: "\U0001F1F9\U0001F1FC TW 68 SSS"
-  type: ss
-  server: 874b20d.t6.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.md:48331
-- name: "\U0001F1F8\U0001F1EC SG 69 SSS"
-  type: ss
-  server: 874b20d.s1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.io:48331
-- name: "\U0001F1F8\U0001F1EC SG 70 SSS"
-  type: ss
-  server: 874b20d.s2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.fi:48331
-- name: "\U0001F1F8\U0001F1EC SG 71 SSS"
-  type: ss
-  server: 874b20d.s3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.fi:48331
-- name: "\U0001F1ED\U0001F1F0 HK 72 SSS"
-  type: ss
-  server: 874b20d.h1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.eu:48331
-- name: "\U0001F1ED\U0001F1F0 HK 73 SSS"
-  type: ss
-  server: 874b20d.h2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.lv:48331
-- name: "\U0001F1ED\U0001F1F0 HK 74 SSS"
-  type: ss
-  server: 874b20d.h3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.net:48331
-- name: "\U0001F1EC\U0001F1E7 GB 75 SSS"
-  type: ss
-  server: 874b20d.e1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.cat:48331
-- name: "\U0001F1EC\U0001F1E7 GB 76 SSS"
-  type: ss
-  server: 874b20d.e2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ee:48331
-- name: "\U0001F1EC\U0001F1E7 GB 77 SSS"
-  type: ss
-  server: 874b20d.e3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.fi:48331
-- name: "\U0001F1F8\U0001F1EC SG 78 SSS"
-  type: ss
-  server: 874b20d.da.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.com:48331
-- name: "\U0001F1EF\U0001F1F5 JP 79 SSS"
-  type: ss
-  server: 874b20d.db.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ge:48331
-- name: "\U0001F1F8\U0001F1EC SG 80 SSS"
-  type: ss
-  server: 874b20d.dc.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ch:48331
-- name: "\U0001F1E8\U0001F1F3 CN 81 SSS"
-  type: ss
-  server: 874b20d.f1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.io.net:48331
-- name: "\U0001F1E8\U0001F1F3 CN 82 SSS"
-  type: ss
-  server: 874b20d.f2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.eu.net:48331
-- name: "\U0001F1E8\U0001F1F3 CN 83 SSS"
-  type: ss
-  server: 874b20d.f3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.mozilla.net.net:48331
-- name: "\U0001F1FA\U0001F1F8 US 84 SSS"
-  type: ss
-  server: 874b20d.d1.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.de.net:48331
-- name: "\U0001F1FA\U0001F1F8 US 85 SSS"
-  type: ss
-  server: 874b20d.d2.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.net.net:48331
-- name: "\U0001F1FA\U0001F1F8 US 86 SSS"
-  type: ss
-  server: 874b20d.d3.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ge.net:48331
-- name: "\U0001F1FA\U0001F1F8 US 87 SSS"
-  type: ss
-  server: 874b20d.d4.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.md.net:48331
-- name: "\U0001F1FA\U0001F1F8 US 88 SSS"
-  type: ss
-  server: 874b20d.d5.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.nintendo.jp.net:48331
-- name: "\U0001F1FA\U0001F1F8 US 89 SSS"
-  type: ss
-  server: 874b20d.d6.gladns.com
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 874b20d.dl.microsoft.ee.net:48331
-- name: "\U0001F1FA\U0001F1F3 UN 90 SSS"
-  type: ss
-  server: 874b20d.qa.glados-config.com
-  port: 8880
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: endpoint.moss.network
-    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
-    mux: true
-- name: "\U0001F1FA\U0001F1F3 UN 91 SSS"
-  type: ss
-  server: 874b20d.qb.glados-config.com
-  port: 8880
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: endpoint.moss.network
-    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
-    mux: true
-- name: "\U0001F1FA\U0001F1F3 UN 92 SSS"
-  type: ss
-  server: 874b20d.qc.glados-config.com
-  port: 8880
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: endpoint.moss.network
-    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
-    mux: true
-- name: "\U0001F1FA\U0001F1F8 US 93 SSS"
-  type: ss
-  server: 874b20d.qd.glados-config.com
-  port: 8880
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: intrepid.moss.network
-    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
-    mux: true
-- name: "\U0001F1FA\U0001F1F3 UN 94 SSS"
-  type: ss
-  server: 874b20d.qe.glados-config.com
-  port: 8880
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: intrepid.moss.network
-    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
-    mux: true
-- name: "\U0001F1FA\U0001F1F3 UN 95 SSS"
-  type: ss
-  server: 874b20d.qf.glados-config.com
-  port: 8880
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  cipher: chacha20-ietf-poly1305
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket
-    host: intrepid.moss.network
-    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
-    mux: true
-- name: "\U0001F1EF\U0001F1F5 JP 96 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 96 SSS"
   type: ss
   server: 874b20d.b1.gladns.com
   port: 2377
@@ -1002,7 +1002,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.microsoft.es:48331
-- name: "\U0001F1ED\U0001F1F0 HK 97 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 97 SSS"
   type: ss
   server: 874b20d.b2.gladns.com
   port: 2377
@@ -1013,7 +1013,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.microsoft.lu:48331
-- name: "\U0001F1E8\U0001F1F3 CN 98 SSS"
+- name: "\U0001F1ED\U0001F1F0 HK 98 SSS"
   type: ss
   server: 874b20d.b3.gladns.com
   port: 2377
@@ -1024,7 +1024,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.microsoft.it:48331
-- name: "\U0001F1F9\U0001F1FC TW 99 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 99 SSS"
   type: ss
   server: 874b20d.b4.gladns.com
   port: 2377
@@ -1057,7 +1057,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.blizzard.com:48331
-- name: "\U0001F1ED\U0001F1F0 HK 102 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 102 SSS"
   type: ss
   server: 874b20d.b7.gladns.com
   port: 2377
@@ -1068,7 +1068,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.fastly.net:48331
-- name: "\U0001F1EF\U0001F1F5 JP 103 SSS"
+- name: "\U0001F1F9\U0001F1FC TW 103 SSS"
   type: ss
   server: 874b20d.b8.gladns.com
   port: 2377
@@ -1079,7 +1079,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.microsoft.dk:48331
-- name: "\U0001F1F9\U0001F1FC TW 104 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 104 SSS"
   type: ss
   server: 874b20d.b9.gladns.com
   port: 2377
@@ -1299,7 +1299,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.microsoft.cl:48331
-- name: "\U0001F1E9\U0001F1EA DE 124 SSS"
+- name: "\U0001F1ED\U0001F1F0 HK 124 SSS"
   type: ss
   server: 874b20d.h2.gladns.com
   port: 2377
@@ -1310,7 +1310,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.epicgames.com:48331
-- name: "\U0001F1E9\U0001F1EA DE 125 SSS"
+- name: "\U0001F1ED\U0001F1F0 HK 125 SSS"
   type: ss
   server: 874b20d.h3.gladns.com
   port: 2377
@@ -1376,7 +1376,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: 874b20d.dl.microsoft.ge:48331
-- name: "\U0001F1F8\U0001F1EC SG 131 SSS"
+- name: "\U0001F1EF\U0001F1F5 JP 131 SSS"
   type: ss
   server: 874b20d.dc.gladns.com
   port: 2377
@@ -1531,7 +1531,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     mux: true
-- name: "\U0001F1FA\U0001F1F3 UN 144 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 144 SSS"
   type: ss
   server: 874b20d.qd.glados-config.com
   port: 8880
@@ -1582,108 +1582,108 @@ proxy-groups:
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  - "\U0001F1FA\U0001F1F8 US 9 VMS"
-  - "\U0001F1F8\U0001F1EA SE 10 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 14 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 15 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 16 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 19 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 20 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
-  - "\U0001F1EA\U0001F1F8 ES 22 SSS"
-  - "\U0001F1FA\U0001F1F8 US 23 VMS"
-  - "\U0001F1E7\U0001F1E6 BA 24 SSS"
-  - "\U0001F1FA\U0001F1F8 US 25 VMS"
-  - "\U0001F1F8\U0001F1E6 SA 26 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
-  - "\U0001F1FA\U0001F1F8 US 28 TJN"
-  - "\U0001F1F7\U0001F1FA RU 29 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 30 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 VMS"
-  - "\U0001F1F8\U0001F1EA SE 34 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 3 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 6 SSS"
+  - "\U0001F1F9\U0001F1FC TW 7 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 8 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 9 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 10 SSS"
+  - "\U0001F1F9\U0001F1FC TW 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 12 SSS"
+  - "\U0001F1FA\U0001F1F8 US 13 SSS"
+  - "\U0001F1FA\U0001F1F8 US 14 SSS"
+  - "\U0001F1FA\U0001F1F8 US 15 SSS"
+  - "\U0001F1FA\U0001F1F8 US 16 SSS"
+  - "\U0001F1FA\U0001F1F8 US 17 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 18 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 19 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 20 SSS"
+  - "\U0001F1F9\U0001F1FC TW 21 SSS"
+  - "\U0001F1F9\U0001F1FC TW 22 SSS"
+  - "\U0001F1F9\U0001F1FC TW 23 SSS"
+  - "\U0001F1F9\U0001F1FC TW 24 SSS"
+  - "\U0001F1F9\U0001F1FC TW 25 SSS"
+  - "\U0001F1F9\U0001F1FC TW 26 SSS"
+  - "\U0001F1F8\U0001F1EC SG 27 SSS"
+  - "\U0001F1F8\U0001F1EC SG 28 SSS"
+  - "\U0001F1F8\U0001F1EC SG 29 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 30 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 31 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 32 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 33 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 34 SSS"
   - "\U0001F1EC\U0001F1E7 GB 35 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 36 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 37 SSS"
-  - "\U0001F1FA\U0001F1F8 US 38 VMS"
-  - "\U0001F1FA\U0001F1F8 US 39 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 40 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 41 HTT"
-  - "\U0001F1E8\U0001F1F3 CN 42 SK5"
-  - "\U0001F1E6\U0001F1FA AU 43 SK5"
-  - "\U0001F1ED\U0001F1F0 HK 44 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 45 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 46 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 47 SSS"
-  - "\U0001F1F9\U0001F1FC TW 48 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 49 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 50 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 51 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 52 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 53 SSS"
-  - "\U0001F1FA\U0001F1F8 US 54 SSS"
-  - "\U0001F1FA\U0001F1F8 US 55 SSS"
-  - "\U0001F1FA\U0001F1F8 US 56 SSS"
-  - "\U0001F1FA\U0001F1F8 US 57 SSS"
-  - "\U0001F1FA\U0001F1F8 US 58 SSS"
-  - "\U0001F1FA\U0001F1F8 US 59 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 60 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 61 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 62 SSS"
-  - "\U0001F1F9\U0001F1FC TW 63 SSS"
-  - "\U0001F1F9\U0001F1FC TW 64 SSS"
-  - "\U0001F1F9\U0001F1FC TW 65 SSS"
-  - "\U0001F1F9\U0001F1FC TW 66 SSS"
-  - "\U0001F1F9\U0001F1FC TW 67 SSS"
-  - "\U0001F1F9\U0001F1FC TW 68 SSS"
-  - "\U0001F1F8\U0001F1EC SG 69 SSS"
-  - "\U0001F1F8\U0001F1EC SG 70 SSS"
-  - "\U0001F1F8\U0001F1EC SG 71 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 72 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 73 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 74 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 75 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 76 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 77 SSS"
-  - "\U0001F1F8\U0001F1EC SG 78 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 79 SSS"
-  - "\U0001F1F8\U0001F1EC SG 80 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 81 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 82 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 83 SSS"
-  - "\U0001F1FA\U0001F1F8 US 84 SSS"
-  - "\U0001F1FA\U0001F1F8 US 85 SSS"
-  - "\U0001F1FA\U0001F1F8 US 86 SSS"
-  - "\U0001F1FA\U0001F1F8 US 87 SSS"
-  - "\U0001F1FA\U0001F1F8 US 88 SSS"
-  - "\U0001F1FA\U0001F1F8 US 89 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 90 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 91 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 92 SSS"
-  - "\U0001F1FA\U0001F1F8 US 93 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 94 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 95 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 96 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 97 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  - "\U0001F1F9\U0001F1FC TW 99 SSS"
+  - "\U0001F1F8\U0001F1EC SG 36 SSS"
+  - "\U0001F1F8\U0001F1EC SG 37 SSS"
+  - "\U0001F1F8\U0001F1EC SG 38 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 39 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 40 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  - "\U0001F1FA\U0001F1F8 US 42 SSS"
+  - "\U0001F1FA\U0001F1F8 US 43 SSS"
+  - "\U0001F1FA\U0001F1F8 US 44 SSS"
+  - "\U0001F1FA\U0001F1F8 US 45 SSS"
+  - "\U0001F1FA\U0001F1F8 US 46 SSS"
+  - "\U0001F1FA\U0001F1F8 US 47 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 48 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 49 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 50 SSS"
+  - "\U0001F1FA\U0001F1F8 US 51 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 52 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 53 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 54 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 55 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 56 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 57 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 58 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 59 VMS"
+  - "\U0001F1FA\U0001F1F8 US 60 VMS"
+  - "\U0001F1F8\U0001F1EA SE 61 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 62 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 63 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 64 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 65 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 66 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 67 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 68 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 69 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 70 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 71 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 72 VMS"
+  - "\U0001F1EA\U0001F1F8 ES 73 SSS"
+  - "\U0001F1FA\U0001F1F8 US 74 VMS"
+  - "\U0001F1E7\U0001F1E6 BA 75 SSS"
+  - "\U0001F1FA\U0001F1F8 US 76 VMS"
+  - "\U0001F1F8\U0001F1E6 SA 77 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 78 VMS"
+  - "\U0001F1FA\U0001F1F8 US 79 TJN"
+  - "\U0001F1F7\U0001F1FA RU 80 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 81 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 82 VMS"
+  - "\U0001F1FA\U0001F1F8 US 83 VMS"
+  - "\U0001F1FA\U0001F1F8 US 84 VMS"
+  - "\U0001F1F8\U0001F1EA SE 85 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 86 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 87 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 88 SSS"
+  - "\U0001F1FA\U0001F1F8 US 89 VMS"
+  - "\U0001F1FA\U0001F1F8 US 90 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 91 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 92 HTT"
+  - "\U0001F1E8\U0001F1F3 CN 93 SK5"
+  - "\U0001F1E6\U0001F1FA AU 94 SK5"
+  - "\U0001F1ED\U0001F1F0 HK 95 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 96 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 97 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 98 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 99 SSS"
   - "\U0001F1ED\U0001F1F0 HK 100 SSS"
   - "\U0001F1F9\U0001F1FC TW 101 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 102 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 103 SSS"
-  - "\U0001F1F9\U0001F1FC TW 104 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 102 SSS"
+  - "\U0001F1F9\U0001F1FC TW 103 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 104 SSS"
   - "\U0001F1FA\U0001F1F8 US 105 SSS"
   - "\U0001F1FA\U0001F1F8 US 106 SSS"
   - "\U0001F1FA\U0001F1F8 US 107 SSS"
@@ -1703,14 +1703,14 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 121 SSS"
   - "\U0001F1F8\U0001F1EC SG 122 SSS"
   - "\U0001F1ED\U0001F1F0 HK 123 SSS"
-  - "\U0001F1E9\U0001F1EA DE 124 SSS"
-  - "\U0001F1E9\U0001F1EA DE 125 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 124 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 125 SSS"
   - "\U0001F1EC\U0001F1E7 GB 126 SSS"
   - "\U0001F1EC\U0001F1E7 GB 127 SSS"
   - "\U0001F1EC\U0001F1E7 GB 128 SSS"
   - "\U0001F1F8\U0001F1EC SG 129 SSS"
   - "\U0001F1EF\U0001F1F5 JP 130 SSS"
-  - "\U0001F1F8\U0001F1EC SG 131 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 131 SSS"
   - "\U0001F1E8\U0001F1F3 CN 132 SSS"
   - "\U0001F1E8\U0001F1F3 CN 133 SSS"
   - "\U0001F1E8\U0001F1F3 CN 134 SSS"
@@ -1723,7 +1723,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 141 SSS"
   - "\U0001F1FA\U0001F1F3 UN 142 SSS"
   - "\U0001F1FA\U0001F1F3 UN 143 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 144 SSS"
+  - "\U0001F1FA\U0001F1F8 US 144 SSS"
   - "\U0001F1FA\U0001F1F3 UN 145 SSS"
   - "\U0001F1FA\U0001F1F3 UN 146 SSS"
   url: https://www.google.com/favicon.ico
@@ -1734,108 +1734,108 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 4 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 5 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 6 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 7 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
-  - "\U0001F1FA\U0001F1F8 US 9 VMS"
-  - "\U0001F1F8\U0001F1EA SE 10 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 13 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 14 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 15 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 16 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 17 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 19 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 20 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
-  - "\U0001F1EA\U0001F1F8 ES 22 SSS"
-  - "\U0001F1FA\U0001F1F8 US 23 VMS"
-  - "\U0001F1E7\U0001F1E6 BA 24 SSS"
-  - "\U0001F1FA\U0001F1F8 US 25 VMS"
-  - "\U0001F1F8\U0001F1E6 SA 26 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
-  - "\U0001F1FA\U0001F1F8 US 28 TJN"
-  - "\U0001F1F7\U0001F1FA RU 29 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 30 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 32 VMS"
-  - "\U0001F1FA\U0001F1F8 US 33 VMS"
-  - "\U0001F1F8\U0001F1EA SE 34 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 3 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 6 SSS"
+  - "\U0001F1F9\U0001F1FC TW 7 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 8 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 9 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 10 SSS"
+  - "\U0001F1F9\U0001F1FC TW 11 SSS"
+  - "\U0001F1FA\U0001F1F8 US 12 SSS"
+  - "\U0001F1FA\U0001F1F8 US 13 SSS"
+  - "\U0001F1FA\U0001F1F8 US 14 SSS"
+  - "\U0001F1FA\U0001F1F8 US 15 SSS"
+  - "\U0001F1FA\U0001F1F8 US 16 SSS"
+  - "\U0001F1FA\U0001F1F8 US 17 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 18 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 19 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 20 SSS"
+  - "\U0001F1F9\U0001F1FC TW 21 SSS"
+  - "\U0001F1F9\U0001F1FC TW 22 SSS"
+  - "\U0001F1F9\U0001F1FC TW 23 SSS"
+  - "\U0001F1F9\U0001F1FC TW 24 SSS"
+  - "\U0001F1F9\U0001F1FC TW 25 SSS"
+  - "\U0001F1F9\U0001F1FC TW 26 SSS"
+  - "\U0001F1F8\U0001F1EC SG 27 SSS"
+  - "\U0001F1F8\U0001F1EC SG 28 SSS"
+  - "\U0001F1F8\U0001F1EC SG 29 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 30 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 31 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 32 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 33 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 34 SSS"
   - "\U0001F1EC\U0001F1E7 GB 35 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 36 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 37 SSS"
-  - "\U0001F1FA\U0001F1F8 US 38 VMS"
-  - "\U0001F1FA\U0001F1F8 US 39 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 40 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 41 HTT"
-  - "\U0001F1E8\U0001F1F3 CN 42 SK5"
-  - "\U0001F1E6\U0001F1FA AU 43 SK5"
-  - "\U0001F1ED\U0001F1F0 HK 44 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 45 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 46 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 47 SSS"
-  - "\U0001F1F9\U0001F1FC TW 48 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 49 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 50 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 51 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 52 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 53 SSS"
-  - "\U0001F1FA\U0001F1F8 US 54 SSS"
-  - "\U0001F1FA\U0001F1F8 US 55 SSS"
-  - "\U0001F1FA\U0001F1F8 US 56 SSS"
-  - "\U0001F1FA\U0001F1F8 US 57 SSS"
-  - "\U0001F1FA\U0001F1F8 US 58 SSS"
-  - "\U0001F1FA\U0001F1F8 US 59 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 60 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 61 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 62 SSS"
-  - "\U0001F1F9\U0001F1FC TW 63 SSS"
-  - "\U0001F1F9\U0001F1FC TW 64 SSS"
-  - "\U0001F1F9\U0001F1FC TW 65 SSS"
-  - "\U0001F1F9\U0001F1FC TW 66 SSS"
-  - "\U0001F1F9\U0001F1FC TW 67 SSS"
-  - "\U0001F1F9\U0001F1FC TW 68 SSS"
-  - "\U0001F1F8\U0001F1EC SG 69 SSS"
-  - "\U0001F1F8\U0001F1EC SG 70 SSS"
-  - "\U0001F1F8\U0001F1EC SG 71 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 72 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 73 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 74 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 75 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 76 SSS"
-  - "\U0001F1EC\U0001F1E7 GB 77 SSS"
-  - "\U0001F1F8\U0001F1EC SG 78 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 79 SSS"
-  - "\U0001F1F8\U0001F1EC SG 80 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 81 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 82 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 83 SSS"
-  - "\U0001F1FA\U0001F1F8 US 84 SSS"
-  - "\U0001F1FA\U0001F1F8 US 85 SSS"
-  - "\U0001F1FA\U0001F1F8 US 86 SSS"
-  - "\U0001F1FA\U0001F1F8 US 87 SSS"
-  - "\U0001F1FA\U0001F1F8 US 88 SSS"
-  - "\U0001F1FA\U0001F1F8 US 89 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 90 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 91 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 92 SSS"
-  - "\U0001F1FA\U0001F1F8 US 93 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 94 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 95 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 96 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 97 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 98 SSS"
-  - "\U0001F1F9\U0001F1FC TW 99 SSS"
+  - "\U0001F1F8\U0001F1EC SG 36 SSS"
+  - "\U0001F1F8\U0001F1EC SG 37 SSS"
+  - "\U0001F1F8\U0001F1EC SG 38 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 39 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 40 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  - "\U0001F1FA\U0001F1F8 US 42 SSS"
+  - "\U0001F1FA\U0001F1F8 US 43 SSS"
+  - "\U0001F1FA\U0001F1F8 US 44 SSS"
+  - "\U0001F1FA\U0001F1F8 US 45 SSS"
+  - "\U0001F1FA\U0001F1F8 US 46 SSS"
+  - "\U0001F1FA\U0001F1F8 US 47 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 48 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 49 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 50 SSS"
+  - "\U0001F1FA\U0001F1F8 US 51 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 52 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 53 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 54 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 55 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 56 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 57 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 58 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 59 VMS"
+  - "\U0001F1FA\U0001F1F8 US 60 VMS"
+  - "\U0001F1F8\U0001F1EA SE 61 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 62 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 63 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 64 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 65 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 66 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 67 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 68 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 69 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 70 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 71 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 72 VMS"
+  - "\U0001F1EA\U0001F1F8 ES 73 SSS"
+  - "\U0001F1FA\U0001F1F8 US 74 VMS"
+  - "\U0001F1E7\U0001F1E6 BA 75 SSS"
+  - "\U0001F1FA\U0001F1F8 US 76 VMS"
+  - "\U0001F1F8\U0001F1E6 SA 77 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 78 VMS"
+  - "\U0001F1FA\U0001F1F8 US 79 TJN"
+  - "\U0001F1F7\U0001F1FA RU 80 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 81 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 82 VMS"
+  - "\U0001F1FA\U0001F1F8 US 83 VMS"
+  - "\U0001F1FA\U0001F1F8 US 84 VMS"
+  - "\U0001F1F8\U0001F1EA SE 85 SSS"
+  - "\U0001F1EC\U0001F1E7 GB 86 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 87 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 88 SSS"
+  - "\U0001F1FA\U0001F1F8 US 89 VMS"
+  - "\U0001F1FA\U0001F1F8 US 90 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 91 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 92 HTT"
+  - "\U0001F1E8\U0001F1F3 CN 93 SK5"
+  - "\U0001F1E6\U0001F1FA AU 94 SK5"
+  - "\U0001F1ED\U0001F1F0 HK 95 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 96 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 97 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 98 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 99 SSS"
   - "\U0001F1ED\U0001F1F0 HK 100 SSS"
   - "\U0001F1F9\U0001F1FC TW 101 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 102 SSS"
-  - "\U0001F1EF\U0001F1F5 JP 103 SSS"
-  - "\U0001F1F9\U0001F1FC TW 104 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 102 SSS"
+  - "\U0001F1F9\U0001F1FC TW 103 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 104 SSS"
   - "\U0001F1FA\U0001F1F8 US 105 SSS"
   - "\U0001F1FA\U0001F1F8 US 106 SSS"
   - "\U0001F1FA\U0001F1F8 US 107 SSS"
@@ -1855,14 +1855,14 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 121 SSS"
   - "\U0001F1F8\U0001F1EC SG 122 SSS"
   - "\U0001F1ED\U0001F1F0 HK 123 SSS"
-  - "\U0001F1E9\U0001F1EA DE 124 SSS"
-  - "\U0001F1E9\U0001F1EA DE 125 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 124 SSS"
+  - "\U0001F1ED\U0001F1F0 HK 125 SSS"
   - "\U0001F1EC\U0001F1E7 GB 126 SSS"
   - "\U0001F1EC\U0001F1E7 GB 127 SSS"
   - "\U0001F1EC\U0001F1E7 GB 128 SSS"
   - "\U0001F1F8\U0001F1EC SG 129 SSS"
   - "\U0001F1EF\U0001F1F5 JP 130 SSS"
-  - "\U0001F1F8\U0001F1EC SG 131 SSS"
+  - "\U0001F1EF\U0001F1F5 JP 131 SSS"
   - "\U0001F1E8\U0001F1F3 CN 132 SSS"
   - "\U0001F1E8\U0001F1F3 CN 133 SSS"
   - "\U0001F1E8\U0001F1F3 CN 134 SSS"
@@ -1875,7 +1875,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 141 SSS"
   - "\U0001F1FA\U0001F1F3 UN 142 SSS"
   - "\U0001F1FA\U0001F1F3 UN 143 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 144 SSS"
+  - "\U0001F1FA\U0001F1F8 US 144 SSS"
   - "\U0001F1FA\U0001F1F3 UN 145 SSS"
   - "\U0001F1FA\U0001F1F3 UN 146 SSS"
 rules:
