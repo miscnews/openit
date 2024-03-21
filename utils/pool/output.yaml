@@ -271,6 +271,21 @@ proxies:
   port: 24883
   password: 9xJYMv
   cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F3 UN 42 VMS"
+  type: vmess
+  server: us65.netfilx.live
+  port: 80
+  cipher: auto
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: us65.netfilx.live
 proxy-groups:
 - name: automatic
   type: url-test
@@ -316,6 +331,7 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 39 SSS"
   - "\U0001F1E8\U0001F1F3 CN 40 SSS"
   - "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -363,5 +379,6 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 39 SSS"
   - "\U0001F1E8\U0001F1F3 CN 40 SSS"
   - "\U0001F1E8\U0001F1F3 CN 41 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
